@@ -2,6 +2,8 @@
 
 ## Machine Learning Sketch
 
+### Primary Analysis
+
 For this analysis, we will be using a supervised maching learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
 
 #### Analysis 1: Global Diet & Obeisity
@@ -40,3 +42,5 @@ _Features(X)_:
 
 _Target(y)_:
   - Deaths 
+
+### Secondary Analysis
