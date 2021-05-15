@@ -6,7 +6,7 @@
 
 For this analysis, we will be using a supervised maching learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
 
-#### Analysis 1: Global Diet & Obeisity
+#### Analysis A: Global Diet & Obeisity
 
 _Features(X)_:
   - Alcoholic Beverages	
@@ -34,7 +34,7 @@ _Features(X)_:
 _Target(y)_:
   - Obeisity 
 
-#### Analysis 2: Obeisity & Covid-19 Mortality 
+#### Analysis B: Obeisity & Covid-19 Mortality 
 
 _Features(X)_:
   - Obesity	
@@ -45,4 +45,4 @@ _Target(y)_:
 
 ### Secondary Analysis
 
-In this analysis we will indroduce a second dataset to the modelling
+In this analysis will repeat Analysis A with an Unsupervise Machine Learning Model using Aglomerative Hierarachical Clustering. The intention of this analysis is to cluster the Food Supply Types by similarity to focus the features used in the Supervised Machine learning model. 
