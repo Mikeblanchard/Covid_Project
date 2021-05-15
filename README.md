@@ -33,3 +33,10 @@ _Target(y)_:
   - Obeisity 
 
 #### Analysis 2: Obeisity & Covid-19 Mortality 
+
+_Features(X)_:
+  - Obesity	
+  - Undernourished
+
+_Target(y)_:
+  - Deaths 
