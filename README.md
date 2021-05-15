@@ -45,4 +45,6 @@ _Target(y)_:
 
 ### Secondary Analysis
 
-In this analysis will repeat Analysis A with an Unsupervise Machine Learning Model using Aglomerative Hierarachical Clustering. The intention of this analysis is to cluster the Food Supply Types by similarity to focus the features used in the Supervised Machine learning model. 
+In this analysis will merge additional data with the existing dataframe that includes popluation data for each of the counties in the Food Supply Data Set. 
+
+With the addition of Median Age and Population Density as Featurings, we will repeat Analysis A with an Unsupervise Machine Learning Model using Aglomerative Hierarachical Clustering. The intention of this analysis is to cluster the Food Supply Types by similarity to focus the features used in the Supervised Machine learning model. 
