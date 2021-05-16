@@ -4,9 +4,9 @@
 
 ### Primary Analysis
 
-For this analysis, we will be using a supervised maching learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
+For this analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
 
-#### Analysis A: Global Diet & Obeisity
+#### Analysis A: Global Diet & Obesity
 
 _Features(X)_:
   - Alcoholic Beverages	
@@ -45,9 +45,9 @@ _Target(y)_:
 
 ### Secondary Analysis
 
-In this analysis we will merge additional data with the existing dataframe that includes popluation data for each of the counties in the Food Supply Data Set. Once merged, we will use a supervised maching learning model on training two separate models for this analysis:
+In this analysis we will merge additional data with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. Once merged, we will use a supervised machine learning model on training two separate models for this analysis:
 
-#### Analysis C: Population & Obeisity
+#### Analysis C: Population & Obesity
 
 _Features(X)_:
   - median_age
@@ -55,7 +55,7 @@ _Features(X)_:
   - population_density
 
 _Target(y)_:
-  - Obeisity 
+  - Obesity 
 
 #### Analysis D: Population & Covid-19 Mortality 
 
