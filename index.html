@@ -24,6 +24,32 @@
 <div id="chart"></div>
 <script>
 
+
+// function mydropDown(data) {
+//     //console.log(data);
+//     var country = [];
+//     for (var i in data) {
+//       country.push(data[i].key);
+//     };
+//     //console.log(country);
+
+// var dropDown = d3.select("#dropdown_container")
+//       .append("select")
+//       .attr("class", "selection")
+//       .attr("name", "country-list");
+//     var options = dropDown.selectAll("option")
+//       .data(data)
+//       .enter()
+//       .append("option");
+//     options.text(function(d) {
+//         return d.key;
+//       })
+//       .attr("value", function(d) {
+//         return d.values;
+//       });
+//   }
+
+
 var margin = {top: 30, right: 20, bottom: 80, left: 50},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -45,12 +71,12 @@ var svg = d3.select("#my_dataviz")
   .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-var data = {a: (1.5748+12.6986+3.9656+0), b: 13.0279, c: (0.7731+0.5297+1.8182+4.796+2.6199), d: (0.2577+0.0143+1.3171+1.5748+0.1432+1.5175+0.2434+0), 
-  e: 6.199, f: (0.587+7.9599+1.088), g: 37.2942}
+var data = {a: 6.199, b: (1.5748+12.6986+3.9656+0), c: 13.0279, d: (0.7731+0.5297+1.8182+4.796+2.6199), 
+  e: (0.2577+0.0143+1.3171+1.5748+0.1432+1.5175+0.2434+0), f: (0.587+7.9599+1.088), g: 37.2942}
 
 var color = d3.scaleOrdinal()
   .domain(data)
-  .range(["#ffff80", "#c2c2d6", "#ffb3cc", "#dfbf9f", "red", "#ffcc80", "#a3c2c2"])
+  .range(["#ffff80", "#c2c2d6", "#ffb3cc", "#dfbf9f", "#ff0505", "#89e8d2", "#a3c2c2"])
   
 
 var pie = d3.pie()
@@ -71,27 +97,32 @@ svg
   .style("stroke-width", "2px")
   .style("opacity", 0.7)
 
+  // #ffcc80
 
-svg.append("circle").attr("cx",310).attr("cy",-50).attr("r", 6).style("fill", "red")
+svg.append("circle").attr("cx",310).attr("cy",-50).attr("r", 6).style("fill", "#a3c2c2")
 svg.append("circle").attr("cx",314).attr("cy",0).attr("r", 6).style("fill", "#c2c2d6")
-svg.append("circle").attr("cx",310).attr("cy",50).attr("r", 6).style("fill", "#a3c2c2")
-svg.append("circle").attr("cx",295).attr("cy",100).attr("r", 6).style("fill", "#ffb3cc")
-svg.append("circle").attr("cx",275).attr("cy",150).attr("r", 6).style("fill", "#dfbf9f")
+svg.append("circle").attr("cx",310).attr("cy",50).attr("r", 6).style("fill", "#ffb3cc")
+svg.append("circle").attr("cx",295).attr("cy",100).attr("r", 6).style("fill", "#dfbf9f")
+svg.append("circle").attr("cx",275).attr("cy",150).attr("r", 6).style("fill", "#89e8d2")
 svg.append("circle").attr("cx",247).attr("cy",192).attr("r", 6).style("fill", "#ffff80")
-svg.append("circle").attr("cx",215).attr("cy",230).attr("r", 6).style("fill", "#ffcc80")
+svg.append("circle").attr("cx",215).attr("cy",230).attr("r", 6).style("fill", "#ff0505")
 svg.append("circle").attr("cx",247).attr("cy",-192).attr("r", 6).style("fill", "green")
 svg.append("circle").attr("cx",215).attr("cy",-230).attr("r", 6).style("fill", "blue")
 svg.append("circle").attr("cx",275).attr("cy",-150).attr("r", 6).style("fill", "black")
-svg.append("text").attr("x", 330).attr("y", -50).text("Sugar and Sweetners - 6.199%").style("font-size", "30px").attr( "alignment-baseline","middle")
+svg.append("text").attr("x", 330).attr("y", -50).text("Vegetable Products").style("font-size", "15px").attr("alignment-baseline","middle")
 svg.append("text").attr("x", 334).attr("y", 0).text("Cereals").style("font-size", "15px").attr("alignment-baseline","middle")
-svg.append("text").attr("x", 330).attr("y", 50).text("Vegetable Products").style("font-size", "15px").attr("alignment-baseline","middle")
-svg.append("text").attr("x", 310).attr("y", 100).text("Eggs, Fish, Fruits, Meat, Milk").style("font-size", "15px").attr("alignment-baseline","middle")
-svg.append("text").attr("x", 295).attr("y", 150).text("Treenuts, Vegetable Oils, Vegetables").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 330).attr("y", 50).text("Eggs, Fish, Fruits, Meat, Milk").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 310).attr("y", 100).text("Treenuts, Vegetable Oils, Vegetables").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 295).attr("y", 150).text("Misc., Offals, Oilcrops, Pulses, Spices, Starchy Roots, Stimulants, Sugar Crops").style("font-size", "15px").attr("alignment-baseline","middle")
 svg.append("text").attr("x", 267).attr("y", 192).text("Alcohol, Animal Products and Fats, Aquatic Products").style("font-size", "15px").attr("alignment-baseline","middle")
-svg.append("text").attr("x", 230).attr("y", 230).text("Misc., Offals, Oilcrops, Pulses, Spices, Starchy Roots, Stimulants, Sugar Crops").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 230).attr("y", 230).text("Sugar and Sweetners - 6.199%").style("font-size", "30px").attr( "alignment-baseline","middle")
 svg.append("text").attr("x", 267).attr("y", -192).text("Undernourished Rate").style("font-size", "15px").attr( "alignment-baseline","middle")
 svg.append("text").attr("x", 230).attr("y", -230).text("Obesity Rate - 31.3%").style("font-size", "30px").attr("alignment-baseline","middle")
 svg.append("text").attr("x", 295).attr("y", -150).text("Death Rate - 2.38%").style("font-size", "30px").attr("alignment-baseline","middle")
+
+
+
+
 
 var width = 250
     height = 250
