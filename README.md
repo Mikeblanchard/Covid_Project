@@ -1,4 +1,4 @@
-# Global Diet, Obeisty & Covid-19 Mortality
+# Global Diet, Age & Covid-19 Mortality
 
 ## Machine Learning Sketch
 
@@ -45,6 +45,25 @@ _Target(y)_:
 
 ### Secondary Analysis
 
-In this analysis will merge additional data with the existing dataframe that includes popluation data for each of the counties in the Food Supply Data Set. 
+In this analysis we will merge additional data with the existing dataframe that includes popluation data for each of the counties in the Food Supply Data Set. Once merged, we will use a supervised maching learning model on training two separate models for this analysis:
 
-With the addition of Median Age and Population Density as Featurings, we will repeat Analysis A with an Unsupervise Machine Learning Model using Aglomerative Hierarachical Clustering. The intention of this analysis is to cluster the Food Supply Types by similarity to focus the features used in the Supervised Machine learning model. 
+#### Analysis C: Population & Obeisity
+
+_Features(X)_:
+  - median_age
+  - population
+  - population_density
+
+_Target(y)_:
+  - Obeisity 
+
+#### Analysis D: Population & Covid-19 Mortality 
+
+_Features(X)_:
+  - median_age
+  - population
+  - population_density
+
+_Target(y)_:
+  - Deaths 
+
