@@ -1,4 +1,4 @@
-# Global Diet, Age & Covid-19 Mortality
+# Global Diet, Population & Covid-19 Mortality
 
 ## Machine Learning Sketch
 
