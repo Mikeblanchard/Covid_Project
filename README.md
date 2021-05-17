@@ -2,7 +2,7 @@
 
 ## Primary Analysis
 
-Our analysis aims to study the impact of obesity on the mortality of covid-19 infected patients. Our hypothesis is that people suffering from Obesity have a lower recovery rate. An additonal impact that we would like to uncover is the 
+Our analysis aims to study the impact of obesity on the mortality of covid-19 infected patients. Our hypothesis is that people suffering from Obesity have a lower recovery rate. An additonal impact that we would like to uncover is the impact of Artificial sweetners to covid infected deaths.
 
 ## Database Sketch
 
