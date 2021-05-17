@@ -5,7 +5,7 @@
 Language: Python
 
 ## Data Cleaning and Analysis
-Pandas will be used to clean the data and perform the exploratory analysis for this project in Jupyter Notebook.
+Working with Python and Jupyter Notebook, Pandas will be used to clean and organize the data for this project, and to perform our exploratory analyses.
 
 ## Database Storage
 SQLite / PostgreSQL are the two choices for database storage that we intend to use for this project. 
