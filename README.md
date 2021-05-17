@@ -1,4 +1,24 @@
-# project-one
+# Global Diet, Population & Covid 19 Mortality
+
+## Github and Communications
+
+The first thing we did was set up a Slack channel for our group. It has been very active during its first week, and in fact, our topic was decided upon with several relevant CSV's over the Slack channel. 
+
+
+
+
+
+The Gtihub branches are all linked here for reference: [Mike's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mike), 
+
+
+
+
+
+
+
+
+
+
 
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/final_project_graph%20_2.png)
