@@ -8,7 +8,7 @@ Language: Python
 Working with Python and Jupyter Notebook, Pandas will be used to clean and organize the data for this project, and to perform our exploratory analyses.
 
 ## Database Storage
-SQLite / PostgreSQL are the two choices for database storage that we intend to use for this project. 
+SQLite is the database we intend to use for this project.
 
 ## Machine Learning
 We intend to use Jupyter Notebook to create two separate but similar supervised machine learning models for each analysis:
