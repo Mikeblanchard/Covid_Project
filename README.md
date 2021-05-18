@@ -1,3 +1,4 @@
+
 # Global Diet, Population & Covid-19 Mortality
 
 ## Machine Learning Sketch
@@ -77,7 +78,6 @@ Next, 4 branches for each group member was created along side the main branch on
 
 The Gtihub branches are all linked here for reference: [Mike's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mike), [Holly's branch](https://github.com/Mikeblanchard/Covid_Project/tree/holly), [Mariela's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mariela) and [Arjun's branch](https://github.com/Mikeblanchard/Covid_Project/tree/arjun)
 
-------------------------------------------------------------------------------------
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/final_project_graph%20_2.png)
 *A link to the HTML code for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/index.html)*
@@ -89,3 +89,10 @@ A visualization of Canada from the total calorie supply CSV. Special attention i
 - CSVs are not importing directly to the graph due to a CORS error. Data manually entered for now. When working, there will be a dropdown selector for Country and graph type (Fat supply, kcal, Quantity and protein supply) to render a visualization of relationships. 
 - Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation. 
 
+
+## Database Sketch
+
+To validate this hypothesis, we will be using multiple datasets from kaggle that has a record of covid infected patients in the year 2019. The Dataset provides Daily level information on the number of Covid 2019 affected cases across the globe. For this Anlysis, we will be using SQLite which will serve the follwing benefits:
+  - Lighweight in terms of setup, database administration, and required resources
+  - serverless
+  - Dynamic table types, which will help us store data, regardless of their datatypes
