@@ -2,12 +2,13 @@
 # Global Diet, Population & Covid-19 Mortality
 
 ## Machine Learning Sketch
+### Completed by: Holly Ouellette
 
-### Primary Analysis
+#### Primary Analysis
 
 For this analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
 
-#### Analysis A: Global Diet & Obesity
+##### Analysis A: Global Diet & Obesity
 
 _Features(X)_:
   - Alcoholic Beverages	
@@ -35,7 +36,7 @@ _Features(X)_:
 _Target(y)_:
   - Obeisity 
 
-#### Analysis B: Obeisity & Covid-19 Mortality 
+##### Analysis B: Obeisity & Covid-19 Mortality 
 
 _Features(X)_:
   - Obesity	
@@ -44,11 +45,11 @@ _Features(X)_:
 _Target(y)_:
   - Deaths 
 
-### Secondary Analysis
+#### Secondary Analysis
 
 In this analysis we will merge additional data with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. Once merged, we will use a supervised machine learning model on training two separate models for this analysis:
 
-#### Analysis C: Population & Obesity
+##### Analysis C: Population & Obesity
 
 _Features(X)_:
   - median_age
@@ -58,7 +59,7 @@ _Features(X)_:
 _Target(y)_:
   - Obesity 
 
-#### Analysis D: Population & Covid-19 Mortality 
+##### Analysis D: Population & Covid-19 Mortality 
 
 _Features(X)_:
   - median_age
@@ -69,6 +70,7 @@ _Target(y)_:
   - Deaths 
 
 ## Github and Communications
+### Completed by: Mike Blanchard
 
 The first thing we did was set up a Slack channel for our group. It has been very active during its first week, and in fact, our topic was decided upon with several relevant CSV's over the Slack channel. It is a valuable communication tool and we will continue to use it.
 
@@ -88,6 +90,7 @@ A visualization of Canada from the total calorie supply CSV. Special attention i
 - Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation. 
 
 ## Database Sketch
+### Completed by: Arjun Kannawar
 
 To validate this hypothesis, we will be using multiple datasets from kaggle that has a record of covid infected patients in the year 2019. The Dataset provides Daily level information on the number of Covid 2019 affected cases across the globe. For this Anlysis, we will be using SQLite which will serve the follwing benefits:
   - Lighweight in terms of setup, database administration, and required resources
@@ -95,15 +98,17 @@ To validate this hypothesis, we will be using multiple datasets from kaggle that
   - Dynamic table types, which will help us store data, regardless of their datatypes
 
 ## Technologies Used
+### Completed by: Mariela Karadzhova 
+
 Language: Python
 
-### Data Cleaning and Analysis
+#### Data Cleaning and Analysis
 Working with Python and Jupyter Notebook, Pandas will be used to clean and organize the data for this project, and to perform our exploratory analyses.
 
-### Database Storage
+#### Database Storage
 SQLite is the database we intend to use for this project.
 
-### Machine Learning
+#### Machine Learning
 We intend to use Jupyter Notebook to create two separate but similar supervised machine learning models for each analysis:
 
 **Anaysis 1 - Global Diet & Obesity/ Obesity & Covid Mortality**
@@ -114,5 +119,5 @@ Supervised, testing and training the dataset to use the global diet features as 
 
 Supervised, with additional predictors (age, population) as predicators of obesity and covid 19 mortality.
 
-### Dashboard
+#### Dashboard
 To visualize the results of this project we are going to use HTML and D3.js (nested charts), OR Tableau to create the final dashboard.
