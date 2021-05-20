@@ -1,6 +1,20 @@
 
 # Global Diet, Population & Covid-19 Mortality
 
+## Presentation
+
+**Selected Topic**: Global Diet, Population and Covid-19 Mortality 
+
+**Topic selection insight:** In the wake of the Covid-19 pandemic, we chose to explore specific data relating to the potential influences that a country's resources (food supply and diet) has on the likelihood of Covid-19 mortality.
+
+**Desciption of the source of data**: Our dataset contains the calculated fat quantity, energy intake (kcal), food supply quantity (kg), and protein for different categories of food (all calculated as percentage of total intake amount). In addition to this, it includes the obesity and undernourished rate (also in percentage) for comparison. The end of the datasets also included the most up to date confirmed/deaths/recovered/active cases (also in percentage of current population for each country.
+
+**Questions we hope to answer with the data:**
+  - Is there a relationship between obesity and deaths relating to Covid-19? 
+  - Is there a relationship between a country's median age and its number of Covid-19 deaths?
+  - Is there a relationship between a country's population size and its number of Covid-19 deaths?
+  - Is there a relationship between a country's Human Development Index Rating and its number of Covid-19 deaths?
+
 ## Machine Learning Sketch
 ### Completed by: Holly Ouellette
 
