@@ -1,8 +1,9 @@
-# Global Diet, Population & Covid-19 Mortality
+# Global Diet, Population & Covid-19 Mortality 
 
 ## Machine Learning Model
+### Completed by: Holly Ouellette 
 
-### Description of Preliminary Data Preprocessing
+#### Description of Preliminary Data Preprocessing
 
 1.	Import Food_Supply_Quantity_kg_Data.csv
 
@@ -17,14 +18,13 @@
 
 3.	Merge the cleaned Deaths.csv and Food_Supply_Quantity_kg_Data.csv on the “Country” column.
 
-Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-Description of how data was split into training and testing sets
-Explanation of model choice, including limitations and benefits
-### Primary Analysis
+#### Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:
 
-For this analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
+For our primary analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. The features for this analysis were chosen to answer the following question:
 
-#### Analysis A: Global Diet & Obesity
+   - _Is there a relationship between obesity and deaths relating to Covid-19?_
+
+##### Analysis A: Global Diet & Obesity
 
 _Features(X)_:
   - Alcoholic Beverages	
@@ -42,46 +42,36 @@ _Features(X)_:
   - Oilcrops	
   - Pulses	
   - Spices	
-  - Starchy Roots	Stimulants	
+  - Starchy Roots Stimulants	
   - Sugar Crops	Sugar & Sweeteners	
   - Treenuts	
   - Vegetal Products	
   - Vegetable Oils	
   - Vegetables
-
-_Target(y)_:
   - Obeisity 
 
-#### Analysis B: Obeisity & Covid-19 Mortality 
-
-_Features(X)_:
-  - Obesity	
-  - Undernourished
-
 _Target(y)_:
   - Deaths 
 
-### Secondary Analysis
-
-In this analysis we will merge additional data with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. Once merged, we will use a supervised machine learning model on training two separate models for this analysis:
-
-#### Analysis C: Population & Obesity
+In our Population Analysis we will merge additional data (Deaths.csv) with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. The features for this analysis were chosen to answer the following questions:
+    - _Is there a relationship between a country's median age and its number of Covid-19 deaths?_
+    - _Is there a relationship between a country's population size and its number of Covid-19 deaths?_
+    - _Is there a relationship between a country's HDI Rating and its number of Covid-19 deaths?_
+    - _Is there a relationship between a country's GDP Per capita and its number of Covid-19 deaths?_
+    
+Population & Covid-19 Mortality 
 
 _Features(X)_:
   - median_age
   - population
   - population_density
-
-_Target(y)_:
-  - Obesity 
-
-#### Analysis D: Population & Covid-19 Mortality 
-
-_Features(X)_:
-  - median_age
-  - population
-  - population_density
+  - HDI_Rating
+  - GDP_Per_capita
 
 _Target(y)_:
   - Deaths 
+
+Description of how data was split into training and testing sets
+Explanation of model choice, including limitations and benefits
+
 
