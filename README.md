@@ -31,22 +31,18 @@ _Features(X)_:
   - Animal Products	
   - Animal fats	
   - Aquatic Products
-  - Other	Cereals - Excluding Beer	
+  - Other Cereals - Excluding Beer	
   - Eggs	
   - Fish
   - Seafood	
   - Fruits - Excluding Wine	
   - Meat	
   - Milk - Excluding Butter	
-  - Miscellaneous	Offals	
-  - Oilcrops	
-  - Pulses	
   - Spices	
   - Starchy Roots Stimulants	
   - Sugar Crops	Sugar & Sweeteners	
   - Treenuts	
   - Vegetal Products	
-  - Vegetable Oils	
   - Vegetables
   - Obeisity 
 
@@ -73,7 +69,11 @@ _Target(y)_:
   -
 #### Description of how data was split into training and testing sets
 
+To split our data into training and testing sets, we will execute the train_test_split() function so that the data is plit into a specific proportion of the original data sets. We will use the default training and testing set proportions:
 
-Explanation of model choice, including limitations and benefits
+  - 75% Training
+  - 25% Testing
+    
+#### Explanation of model choice, including limitations and benefits
 
 
