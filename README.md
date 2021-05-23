@@ -66,7 +66,7 @@ _Features(X)_:
 
 _Target(y)_:
   - Deaths 
-  -
+ 
 #### Description of how data was split into training and testing sets
 
 To split our data into training and testing sets, we will execute the train_test_split() function so that the data is plit into a specific proportion of the original data sets. We will use the default training and testing set proportions:
