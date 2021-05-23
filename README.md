@@ -3,7 +3,7 @@
 ## Machine Learning Model
 ### Completed by: Holly Ouellette 
 
-#### Description of Preliminary Data Preprocessing
+#### Description of preliminary data preprocessing:
 
 1.	Import Food_Supply_Quantity_kg_Data.csv
 
@@ -67,13 +67,25 @@ _Features(X)_:
 _Target(y)_:
   - Deaths 
  
-#### Description of how data was split into training and testing sets
+#### Description of how data was split into training and testing sets:
 
 To split our data into training and testing sets, we will execute the train_test_split() function so that the data is plit into a specific proportion of the original data sets. We will use the default training and testing set proportions:
 
   - 75% Training
   - 25% Testing
     
-#### Explanation of model choice, including limitations and benefits
+#### Explanation of model choice, including limitations and benefits:
 
+For our analysis, we will be using the **Decision Tree** model to perform regression analysis. 
 
+_Some benefits of this model include:_
+
+ - It does not require as much pre-processing of our data as compared to other regression models.
+ - The NaN values present in the dataset will not have a significant impact on the process of building the decision tree. 
+ - This model will support us in delivering a more simplistic presentation when the analysis is complete. 
+
+_Drawbacks of this model include:_
+ 
+ - The model could potentially become very complex.
+ - Often requires more time to train the model. 
+ - It is computationally expensive. 
