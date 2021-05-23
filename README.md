@@ -1,7 +1,30 @@
 # Global Diet, Population & Covid-19 Mortality
 
-## Machine Learning Sketch
+## Machine Learning Model
 
+### Description of Preliminary Data Preprocessing
+
+1.	Import Food_Supply_Quantity_kg_Data.csv
+
+The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
+
+NaN Values will be identified – currently, there are few enough NaN values for us to confidently drop them with no concern over this skewing the final results. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
+
+2.	Import Deaths.csv
+
+The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
+
+Country names updated so that they math the formatting in the Food_Supply_Quantity_kg_Data.csv to set up it up to merge these DataFrames together. 
+
+Same as above, the NaN Values will be identified. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
+
+3.	Merge the cleaned Deaths.csv and Food_Supply_Quantity_kg_Data.csv on the “Country” column.
+
+
+
+Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+Description of how data was split into training and testing sets
+Explanation of model choice, including limitations and benefits
 ### Primary Analysis
 
 For this analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. We will be training two separate models for this analysis:
