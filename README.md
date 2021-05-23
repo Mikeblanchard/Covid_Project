@@ -59,7 +59,7 @@ In our Population Analysis we will merge additional data (Deaths.csv) with the e
   - _Is there a relationship between a country's HDI Rating and its number of Covid-19 deaths?_
   - _Is there a relationship between a country's GDP Per capita and its number of Covid-19 deaths?_
     
-Population & Covid-19 Mortality 
+##### Analysis B :Population & Covid-19 Mortality 
 
 _Features(X)_:
   - median_age
