@@ -70,7 +70,7 @@ _Features(X)_:
 
 _Target(y)_:
   - Deaths 
-
+  -
 Description of how data was split into training and testing sets
 Explanation of model choice, including limitations and benefits
 
