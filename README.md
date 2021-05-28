@@ -141,8 +141,11 @@ Finally, we observe that none of the features we looked at had much correlation 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
+The final thing we wanted to look at is obesity and undernourishment as it correlates to increased deaths. 
 
-|![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/obes_deaths.png)|![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/under_deaths.png)|
+![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/obes_deaths.png)![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/under_deaths.png)
+
+As posited, obesity does seem to be correlated. We predict the Machine Learning model will also find the same relationship.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
