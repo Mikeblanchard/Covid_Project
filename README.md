@@ -142,7 +142,7 @@ Finally, we observe that none of the features we looked at had much correlation 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 |----------|---------------------|
-|-https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/obes_deaths.png-|- https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/under_deaths.png|
+|-![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/obes_deaths.png)-|- ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/under_deaths.png)-|
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
