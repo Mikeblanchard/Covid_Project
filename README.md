@@ -110,39 +110,32 @@ _Drawbacks of this model include:_
 ## Github and Communications
 ### Completed by: Mike Blanchard
 
-The first thing we did was set up a Slack channel for our group. It has been very active during its first week, and in fact, our topic was decided upon with several relevant CSV's over the Slack channel. It is a valuable communication tool and we will continue to use it.
+We continue to use our Slack channel to communicate. Datasets, links and different ideas are posted there by team members for review and consideration. Alongside Slack, the four branches we created ([Mike's](https://github.com/Mikeblanchard/Covid_Project/tree/mike), [Holly's](https://github.com/Mikeblanchard/Covid_Project/tree/holly), [Arjun's](https://github.com/Mikeblanchard/Covid_Project/tree/arjun) and [Mariela's](https://github.com/Mikeblanchard/Covid_Project/tree/mariela)) are being used to upload production-ready code and trial efforts. As a team we decide which to commit and pull into the main branch of the project. Having decided to narrow our search, some of the CSV files we initially uplaoded were removed from the [CSV folder](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs), and any relevant work to Arjun's merged CSV files were uploaded. 
 
-Next, 4 branches for each group member was created along side the main branch on my Github page. Each member was to complete a markdown write up pertaining to their segment of the assignment. They will all be kept in their individual branches until we have satisfying, completed code so as to muddy up the main branch with too many commits. The only thing commited so far is a folder containing [the CSV's we will use](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs).
+### Continued Analysis
 
-The Gtihub branches are all linked here for reference: [Mike's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mike), [Holly's branch](https://github.com/Mikeblanchard/Covid_Project/tree/holly), [Mariela's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mariela) and [Arjun's branch](https://github.com/Mikeblanchard/Covid_Project/tree/arjun)
-
-Additionaly, we will be featuring some interactive visuals like this, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country.
+We will be featuring some interactive visuals like the following, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country:
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/Map.gif)
 *A link to the tableau public graphic provided [here](https://public.tableau.com/app/profile/mike.blanchard/viz/Map_16216990656660/Dashboard1)*
+--------------------------------------------------------------------------------------------------------------------------------------------
+A visualization of Canada from the total Food Supply kg CSV. Special attention is being paid to Sugar and Sweetners and their effect on Obesity rates in Covid fatalities.
+- Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation.
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/final_project_graph%20_2.png)
 *A link to the HTML code for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/index.html)*
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-A visualization of Canada from the total calorie supply CSV. Special attention is being paid to Sugar and Sweetners and their effect on Obesity rates in Covid fatalities.
-
-##### *Notes*
-
-- CSVs are not importing directly to the graph due to a CORS error. Data manually entered for now. When working, there will be a dropdown selector for Country and graph type (Fat supply, kcal, Quantity and protein supply) to render a visualization of relationships. 
-- Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation. 
-
-### Correlation of Features for Predictive purposes: Continued Analysis
-
-A correlation test was run across the features we will be focusing on, and how closely they correlate to our targets of Obesity, Undernourishment, Deaths and Death Rate.
+A correlation test was run across the features we will be focusing on, to examine how closely they correlate to our targets of Obesity, Undernourishment, Deaths and Death Rate.
 A pearsonr test was used for this:
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/heatmap_image_final.png)
 *A link to the Jupyter Notebook provided [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Heatmap_Correlation_Code.ipynb)*
 
-We observe that the features resulting in Obesity are reciprocals of those associated with Undernourishment. This passes the logical test of the two being at odds with each other. The features with the highest correlation to Deaths (as a percentage of the population), are mostly age related. A near-strong correlation with higher average age countries, and countries with people aged 65 and 75. Interestingly, high GDP and Human Deveelopment Index countries are very much correlated with higher deaths. Perhaps this is an indication of more travel into the country, contributing to the spread and mortality of Covid-19. Population density was a bit of a surprise, having virtually no correlation with deaths from the disease. 
+We observe that the features resulting in Obesity are reciprocals of those associated with Undernourishment. This passes the logical test of the two being at odds with each other. The features with the highest correlation to Deaths (as a percentage of the population), are mostly age related. A near-strong correlation with higher average age countries, and countries with people aged 65 and 75. Interestingly, high GDP and Human Deveelopment Index countries are very much correlated with higher deaths. Perhaps this is an indication of more travel into the country, contributing to the spread and mortality of Covid-19. Population density was a bit of a surprise, having virtually no correlation with deaths from the disease we try to combat with social distancing.
 
 Finally, we observe that none of the features we looked at had much correlation at all with death rate of people who contracted Covid-19, with the highest and lowest r values being 0.14 and -0.107. Study into medical procedure and availability may be the factor that determines rate at which people die from Covid, as it does not appear to be dietary.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------
 ## Database Sketch
 ### Completed by: Arjun Kannawar
 
