@@ -131,7 +131,7 @@ A visualization of Canada from the total calorie supply CSV. Special attention i
 - CSVs are not importing directly to the graph due to a CORS error. Data manually entered for now. When working, there will be a dropdown selector for Country and graph type (Fat supply, kcal, Quantity and protein supply) to render a visualization of relationships. 
 - Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation. 
 
-### Correlation of Features for Predictive purposes
+### Correlation of Features for Predictive purposes: Continued Analysis
 
 A correlation test was run across the features we will be focusing on, and how closely they correlate to our targets of Obesity, Undernourishment, Deaths and Death Rate.
 A pearsonr test was used for this:
@@ -141,7 +141,7 @@ A pearsonr test was used for this:
 
 We observe that the features resulting in Obesity are reciprocals of those associated with Undernourishment. This passes the logical test of the two being at odds with each other. The features with the highest correlation to Deaths (as a percentage of the population), are mostly age related. A near-strong correlation with higher average age countries, and countries with people aged 65 and 75. Interestingly, high GDP and Human Deveelopment Index countries are very much correlated with higher deaths. Perhaps this is an indication of more travel into the country, contributing to the spread and mortality of Covid-19. Population density was a bit of a surprise, having virtually no correlation with deaths from the disease. 
 
-Finally, we observe that none of the features we looked at had much correlation at all with death rate of people who contracted Covid-19, with the highest and lowest r values being 0.14 and -0.107. Study into medical procedure and availability may be the factor that determines rate at which people die from Covid. 
+Finally, we observe that none of the features we looked at had much correlation at all with death rate of people who contracted Covid-19, with the highest and lowest r values being 0.14 and -0.107. Study into medical procedure and availability may be the factor that determines rate at which people die from Covid, as it does not appear to be dietary.
 
 ## Database Sketch
 ### Completed by: Arjun Kannawar
