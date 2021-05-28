@@ -141,6 +141,12 @@ Finally, we observe that none of the features we looked at had much correlation 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
+impute = IterativeImputer(max_iter=20, verbose=20)
+df_array = impute.fit_transform(df_dropped)
+df_array
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Database Sketch
 ### Completed by: Arjun Kannawar
 
