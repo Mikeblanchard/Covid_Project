@@ -116,6 +116,8 @@ Next, 4 branches for each group member was created along side the main branch on
 
 The Gtihub branches are all linked here for reference: [Mike's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mike), [Holly's branch](https://github.com/Mikeblanchard/Covid_Project/tree/holly), [Mariela's branch](https://github.com/Mikeblanchard/Covid_Project/tree/mariela) and [Arjun's branch](https://github.com/Mikeblanchard/Covid_Project/tree/arjun)
 
+Additionaly, we will be featuring some interactive visuals like this, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country.
+
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/Map.gif)
 
 
