@@ -119,7 +119,7 @@ The Gtihub branches are all linked here for reference: [Mike's branch](https://g
 Additionaly, we will be featuring some interactive visuals like this, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country.
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/Map.gif)
-
+*A link to the tableau public graphic provided [here](https://public.tableau.com/app/profile/mike.blanchard/viz/Map_16216990656660/Dashboard1)*
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/final_project_graph%20_2.png)
 *A link to the HTML code for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/index.html)*
@@ -137,6 +137,7 @@ A correlation test was run across the features we will be focusing on, and how c
 A pearsonr test was used for this:
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/heatmap_image_final.png)
+*A link to the Jupyter Notebook provided [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Heatmap_Correlation_Code.ipynb)*
 
 We observe that the features resulting in Obesity are reciprocals of those associated with Undernourishment. This passes the logical test of the two being at odds with each other. The features with the highest correlation to Deaths (as a percentage of the population), are mostly age related. A near-strong correlation with higher average age countries, and countries with people aged 65 and 75. Interestingly, high GDP and Human Deveelopment Index countries are very much correlated with higher deaths. Perhaps this is an indication of more travel into the country, contributing to the spread and mortality of Covid-19. Population density was a bit of a surprise, having virtually no correlation with deaths from the disease. 
 
