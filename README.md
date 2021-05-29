@@ -175,6 +175,8 @@ The master tables 'covid_deaths', 'food_supply_quantity_kg', and 'food_supply_kc
 
 ### Database Entity relationship diagram
 
+*A link to the ERD for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/ERD.png)*
+
 ### Procuring Postgres Instance and connecting the DB to Google Colab
 
 For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS instance on the AWS cloud, wherein, we uplaoded our three master tables. To perform Machine learning analysis, we used create_engine in SQL alchemy to connect AWS Postgres DB to Google Colab, therfore coneecting the Postgres DB on AWS cloud to google colab.
