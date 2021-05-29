@@ -3,6 +3,10 @@
 ## Machine Learning Model
 ### Completed by: Holly Ouellette 
 
+#### Machine Learning Model Code
+
+All of the Machine Learning Model code that corresponds to the outline below can be found [here](https://github.com/Mikeblanchard/Covid_Project/tree/holly/Machine_Learning). 
+
 #### Description of preliminary data preprocessing:
 
 1.	Import Food_Supply_Quantity_kg_Data.csv
