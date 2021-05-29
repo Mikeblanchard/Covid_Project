@@ -19,6 +19,10 @@
 ## Machine Learning Model
 ### Completed by: Holly Ouellette
 
+#### Machine Learning Model Code
+
+All of the Machine Learning Model code that corresponds to the outline below can be found [here](https://github.com/Mikeblanchard/Covid_Project/tree/holly/Machine_Learning). 
+
 #### Description of preliminary data preprocessing:
 
 1.	Import Food_Supply_Quantity_kg_Data.csv
@@ -66,10 +70,11 @@ _Target(y)_:
   - Deaths 
 
 In our Population Analysis we will merge additional data (Deaths.csv) with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. The features for this analysis were chosen to answer the following questions:
-  - _Is there a relationship between a country's median age and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's population size and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's HDI Rating and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's GDP Per capita and its number of Covid-19 deaths?_
+  - _Is there a relationship between a country's food supply and obesity?_
+  - _Is there a relationship between a obesity and Covid-19-related mortality?_
+  - _Is there a relationship between a country's age data and its number of Covid-19 deaths?_
+  - _Is there a relationship between a country's population data and its number of Covid-19 deaths?_
+  - _Is there a relationship between a country's HDI Rating & GDP Per capita and its number of Covid-19 deaths?_
     
 ##### Analysis B :Population & Covid-19 Mortality 
 
