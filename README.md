@@ -174,7 +174,7 @@ The master tables 'covid_deaths', 'food_supply_quantity_kg', and 'food_supply_kc
 - Perform a check on the data to esnure they are of consistent format.
 
 ### Database Entity relationship diagram
-
+![](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/ERD.png)
 *A link to the ERD for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/ERD.png)*
 
 ### Procuring Postgres Instance and connecting the DB to Google Colab
@@ -184,6 +184,8 @@ For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS inst
 ### Data processing post connecting Postgres DB to Colab.
 - JOIN 'covid_deaths' table with 'food_supply_quantity_kg' table using FULL OUTER JOIN
 - JOIN 'covid_deaths' table with 'food_supply_kcal' table using FULL OUTER JOIN 
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Technologies Used
 ### Completed by: Mariela Karadzhova 
