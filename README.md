@@ -157,7 +157,7 @@ As posited, obesity does seem to be correlated. We predict the Machine Learning 
 ## Database Sketch
 ### Completed by: Arjun Kannawar
 
-Our hypothesis is that obesity has a substantial impact on people who have succumbed to Covid. To conduct this analysis, we will be using three datasets from kaggle that has a record of covid infected patients in the year 2019. The first data set contains data around deaths due to covid in countries aroubnd the world. The second dataset gives us a bird'e eye view of the eating behaviour of people around the globe, while the third datset is a variation of the same where the data is captured in Kilo Calories as oppsed to Kgs as seen in the second data set.  
+Our hypothesis is that obesity has a substantial impact on people who have succumbed to Covid. To conduct this analysis, we will be using three datasets from kaggle that have a record of covid infected patients in the year 2019. The first data set contains data around deaths due to covid in countries aroubnd the world. The second dataset gives us a bird'e eye view of the eating behaviour of people around the globe, while the third datset is a variation of the same where the data is captured in Kilo Calories as oppsed to Kgs as seen in the second data set.  
 
 For this Anlysis, we will be using Postgres DB. PostgreSQL is an object-relational database, meaning that although it’s primarily a relational database it also includes features — like table inheritance and function overloading — that are more often associated with object databases.
 
