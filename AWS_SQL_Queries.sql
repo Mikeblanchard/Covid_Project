@@ -5,7 +5,7 @@ select * from food_supply_kcal;
 select * from food_supply_quantity_kg;
 
 
--- LEFT OUTER JOIN of 2 tables (covid_deaths & food_supply_quantity_kg)
+-- LEFT OUTER JOIN of 2 tables (covid_deaths & food_supply_quantity_)
 SELECT cd.*, fkg.animal_products, fkg.animal_fats, fkg.aquatic_products, fkg.cereals_excluding_beer, 
 fkg.eggs, fkg.seafood, fkg.fruits_excluding_wine, fkg.meat, fkg.milk_excluding_butter, 
 fkg.miscellaneous, fkg.offals, fkg.oilcrops, fkg.pulses, fkg.spices, fkg.starchy_roots, 
