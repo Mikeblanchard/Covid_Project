@@ -159,9 +159,28 @@ As posited, obesity does seem to be correlated. We predict the Machine Learning 
 
 Our hypothesis is that obesity has a substantial impact on people who have succumbed to Covid. To conduct this analysis, we will be using three datasets from kaggle that have a record of covid infected patients in the year 2019. The first data set contains data around deaths due to covid in countries aroubnd the world. The second dataset gives us a bird'e eye view of the eating behaviour of people around the globe, while the third datset is a variation of the same where the data is captured in Kilo Calories as oppsed to Kgs as seen in the second data set.  
 
-For this Anlysis, we will be using Postgres DB. PostgreSQL is an object-relational database, meaning that although it’s primarily a relational database it also includes features — like table inheritance and function overloading — that are more often associated with object databases.
+### Technologies used
+- AWS
+- Postgres DB
+- Google Colaborator
+- Sql Alchemy
 
-We have configured our database on the AWS cloud. The master table has been loaded into an RDS Instance of Postgres DB.
+### Data Preprocessing before loading into the database:
+
+The master tables 'covid_deaths', 'food_supply_quantity_kg', and 'food_supply_kcal' were taken from two different sources in Kaggle. To ensure that we can merge these tables successfully, the following steps were performed: 
+- Excel manipulations to ensure all three csv files had the same amount of country entires, as we will be joining these tables using country as the primary key.
+- Ensure the columns had the right data types to ensure a successful import into Postgres DB.
+- Perform a check on the data to esnure they are of consistent format.
+
+### Database Entity relationship diagram
+
+### Procuring Postgres Instance and connecting the DB to Google Colab
+
+For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS instance on the AWS cloud, wherein, we uplaoded our three master tables. To perform Machine learning analysis, we used create_engine in SQL alchemy to connect AWS Postgres DB to Google Colab, therfore coneecting the Postgres DB on AWS cloud to google colab.
+
+### Data processing post connecting Postgres DB to Colab.
+- JOIN 'covid_deaths' table with 'food_supply_quantity_kg' table using FULL OUTER JOIN
+- JOIN 'covid_deaths' table with 'food_supply_kcal' table using FULL OUTER JOIN 
 
 ## Technologies Used
 ### Completed by: Mariela Karadzhova 
