@@ -164,6 +164,7 @@ Our hypothesis is that obesity has a substantial impact on people who have succu
 - Postgres DB
 - Google Colaborator
 - Sql Alchemy
+- Pandas
 
 ### Data Preprocessing before loading into the database:
 
