@@ -1,4 +1,3 @@
-
 create table Covid_Deaths (
     iso_code varchar(10) NOT NULL, 
 	continent varchar(40) NOT NULL, 
