@@ -180,10 +180,12 @@ The master tables 'covid_deaths', 'food_supply_quantity_kg', and 'food_supply_kc
 ### Procuring Postgres Instance and connecting the DB to Google Colab
 
 For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS instance on the AWS cloud, wherein, we uplaoded our three master tables. To perform Machine learning analysis, we used create_engine in SQL alchemy to connect AWS Postgres DB to Google Colab, therfore coneecting the Postgres DB on AWS cloud to google colab.
+*A link to google colab notebook for the code to steps mentioned above can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
 
 ### Data processing post connecting Postgres DB to Colab.
 - JOIN 'covid_deaths' table with 'food_supply_quantity_kg' table using FULL OUTER JOIN
 - JOIN 'covid_deaths' table with 'food_supply_kcal' table using FULL OUTER JOIN 
+*A link to google colab notebook for the code to join tables [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
