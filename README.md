@@ -157,7 +157,7 @@ From this we will predict the Machine Learning model to find the following impor
 - Consumption of meat, sugar and sweetners and animal products have an effect on a countries obesity rates
 - Obesity has an effect on a countries Covid-19 deaths
 
-We will compare this to the Machine Learning results. 
+We will compare this to the Machine Learning results. A graphic or chart of the Machine Learning results is planned, as well as a comparison of the results and the correlation table. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
