@@ -127,7 +127,7 @@ We will be featuring some interactive visuals like the following, which displays
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 A visualization of Canada from the total Food Supply kg CSV. Special attention is being paid to Sugar and Sweetners and their effect on Obesity rates in Covid fatalities.
-- Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation.
+- Categories were grouped here for ease of visualization, given the number of < 1% data. Each Feautre will be examined individually, perhaps grouped again based off correlation or the Machine Learning results. 
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/final_project_graph%20_2.png)
 *A link to the HTML code for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/index.html)*
