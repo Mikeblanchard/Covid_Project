@@ -151,11 +151,11 @@ The final thing we wanted to look at is obesity and undernourishment as it corre
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/obes_deaths.png)![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/under_deaths.png)
 
 From this we will predict the Machine Learning model to find the following importances:
-- Age is a factor in a countries Covid-19 deaths
+- Advanced age is a factor in a countries Covid-19 deaths
 - Higher GDP and HDI countries are more likely to have higher deaths from Covid-19
-- Population size and density is not a factor in a countries Covid-19 deaths
+- Larger population size and density is not a factor in a countries Covid-19 deaths
 - Consumption of meat, sugar and sweetners and animal products have an effect on a countries obesity rates
-- Obesity has a 
+- Obesity has an effect on a countries Covid-199 deaths
 
 We will compare this to the Machine Learning results. 
 
