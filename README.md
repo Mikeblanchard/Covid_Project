@@ -155,7 +155,7 @@ From this we will predict the Machine Learning model to find the following impor
 - Higher GDP and HDI countries are more likely to have higher deaths from Covid-19
 - Larger population size and density is not a factor in a countries Covid-19 deaths
 - Consumption of meat, sugar and sweetners and animal products have an effect on a countries obesity rates
-- Obesity has an effect on a countries Covid-199 deaths
+- Obesity has an effect on a countries Covid-19 deaths
 
 We will compare this to the Machine Learning results. 
 
