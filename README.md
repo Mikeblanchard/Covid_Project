@@ -169,7 +169,7 @@ Our hypothesis is that obesity has a substantial impact on people who have succu
 ### Data Preprocessing before loading into the database:
 
 The master tables 'covid_deaths', 'food_supply_quantity_kg', and 'food_supply_kcal' were taken from two different sources in Kaggle. To ensure that we can merge these tables successfully, the following steps were performed: 
-- Excel manipulations to ensure all three csv files had the same amount of country entires, as we will be joining these tables using country as the primary key.
+- Excel manipulations to ensure all three csv files had the same number of country entires/rows, as we will be joining these tables using country as the primary key.
 - Ensure the columns had the right data types to ensure a successful import into Postgres DB.
 - Perform a check on the data to esnure they are of consistent format.
 
