@@ -134,15 +134,25 @@ A visualization of Canada from the total Food Supply kg CSV. Special attention i
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-A correlation test was run across the features we will be focusing on, to examine how closely they correlate to our targets of Obesity, Undernourishment, Deaths and Death Rate.
+Prior to Holly's Machine Learning analysis, a correlation test was run across the our chosen features to examine how closely they correlate to our targets of Obesity, Undernourishment, Deaths and Death Rate.
 A pearsonr test was used for this:
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/heatmap_image_final.png)
 *A link to the Jupyter Notebook provided [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Heatmap_Correlation_Code.ipynb)*
 
-We observe that the features resulting in Obesity are reciprocals of those associated with Undernourishment. This passes the logical test of the two being at odds with each other. The features with the highest correlation to Deaths (as a percentage of the population), are mostly age related. A near-strong correlation with higher average age countries, and countries with people aged 65 and 75. Interestingly, high GDP and Human Deveelopment Index countries are very much correlated with higher deaths. Perhaps this is an indication of more travel into the country, contributing to the spread and mortality of Covid-19. Population density was a bit of a surprise, having virtually no correlation with deaths from the disease we try to combat with social distancing.
+We observe that the features resulting in Obesity are reciprocals of those associated with Undernourishment. This passes the logical test of the two being at odds with each other. The features with the highest correlation to Deaths (as a percentage of the population), are mostly age related. A near-strong correlation with higher average age countries, and countries with people aged 65 and 75. 
+
+Interestingly, high GDP and Human Deveelopment Index countries are very much correlated with higher deaths. Perhaps this is an indication of more travel into the country, contributing to the spread and mortality of Covid-19. Population density was a bit of a surprise, having virtually no correlation with deaths from the disease we try to combat with social distancing.
 
 Finally, we observe that none of the features we looked at had much correlation at all with death rate of people who contracted Covid-19, with the highest and lowest r values being 0.14 and -0.107. Study into medical procedure and availability may be the factor that determines rate at which people die from Covid, as it does not appear to be dietary.
+
+From this we will predict the Machine Learning model to find the following importances:
+- Age is a factor in a countries Covid-19 deaths
+- Higher GDP and HDI countries are more likely to have higher deaths from Covid-19
+- Population size and density is not a factor in a countries Covid-19 deaths
+- Consumption of meat, sugar and sweetners and animal products have an effect on a contries obesity rates
+
+We will compare this to the Machine Learning results. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
