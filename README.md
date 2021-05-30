@@ -117,7 +117,7 @@ _Drawbacks of this model include:_
 
 We continue to use our Slack channel to communicate. Datasets, links and different ideas are posted there by team members for review and consideration. Alongside Slack, the four branches we created ([Mike's](https://github.com/Mikeblanchard/Covid_Project/tree/mike), [Holly's](https://github.com/Mikeblanchard/Covid_Project/tree/holly), [Arjun's](https://github.com/Mikeblanchard/Covid_Project/tree/arjun) and [Mariela's](https://github.com/Mikeblanchard/Covid_Project/tree/mariela)) are being used to upload production-ready code and trial efforts. As a team we decide which to commit and pull into the main branch of the project. Having decided to narrow our search, some of the CSV files we initially uplaoded were removed from the [CSV folder](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs), and any relevant work to Arjun's merged CSV files were uploaded. 
 
-### Continued Analysis
+### Continued Analysis and Visualizations
 
 We will be featuring some interactive visuals like the following, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country:
 
@@ -146,21 +146,18 @@ Interestingly, high GDP and Human Deveelopment Index countries are very much cor
 
 Finally, we observe that none of the features we looked at had much correlation at all with death rate of people who contracted Covid-19, with the highest and lowest r values being 0.14 and -0.107. Study into medical procedure and availability may be the factor that determines rate at which people die from Covid, as it does not appear to be dietary.
 
-From this we will predict the Machine Learning model to find the following importances:
-- Age is a factor in a countries Covid-19 deaths
-- Higher GDP and HDI countries are more likely to have higher deaths from Covid-19
-- Population size and density is not a factor in a countries Covid-19 deaths
-- Consumption of meat, sugar and sweetners and animal products have an effect on a contries obesity rates
-
-We will compare this to the Machine Learning results. 
-
--------------------------------------------------------------------------------------------------------------------------------------------------
-
 The final thing we wanted to look at is obesity and undernourishment as it correlates to increased deaths. 
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/obes_deaths.png)![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/under_deaths.png)
 
-As posited, obesity does seem to be correlated. We predict the Machine Learning model will also find the same relationship.
+From this we will predict the Machine Learning model to find the following importances:
+- Age is a factor in a countries Covid-19 deaths
+- Higher GDP and HDI countries are more likely to have higher deaths from Covid-19
+- Population size and density is not a factor in a countries Covid-19 deaths
+- Consumption of meat, sugar and sweetners and animal products have an effect on a countries obesity rates
+- Obesity has a 
+
+We will compare this to the Machine Learning results. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
