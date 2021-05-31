@@ -166,7 +166,7 @@ We will compare this to the Machine Learning results. A graphic or chart of the 
 ## Database Sketch
 ### Completed by: Arjun Kannawar
 
-Our hypothesis is that obesity has a substantial impact on people who have succumbed to Covid. To conduct this analysis, we will be using three datasets from kaggle that have a record of covid infected patients in the year 2019. The first data set contains data around deaths due to covid in countries aroubnd the world. The second dataset gives us a bird'e eye view of the eating behaviour of people around the globe, while the third datset is a variation of the same where the data is captured in Kilo Calories as oppsed to Kgs as seen in the second data set.  
+Our hypothesis is that obesity has a substantial impact on people who have succumbed to Covid. To conduct this analysis, we will be using three datasets from kaggle that have a record of covid infected patients in the year 2019. The first data set contains data around deaths due to covid in countries around the world. The second dataset gives us a bird's eye view of the eating behaviour of people around the globe, while the third datset is a variation of the same where the data is captured in Kilo Calories as opposed to Kgs as seen in the second data set.  
 
 ### Technologies used
 - AWS
@@ -178,22 +178,28 @@ Our hypothesis is that obesity has a substantial impact on people who have succu
 ### Data Preprocessing before loading into the database:
 
 The master tables 'covid_deaths', 'food_supply_quantity_kg', and 'food_supply_kcal' were taken from two different sources in Kaggle. To ensure that we can merge these tables successfully, the following steps were performed: 
-- Excel manipulations to ensure all three csv files had the same number of country entires/rows, as we will be joining these tables using country as the primary key.
+- Excel manipulations to ensure all three csv files had the same number of country entries/rows, as we will be joining these tables using country as the primary key.
 - Ensure the columns had the right data types to ensure a successful import into Postgres DB.
-- Perform a check on the data to esnure they are of consistent format.
+- Perform a check on the data to ensure they are of a consistent format.
+- Dealing with 'null' values.
 
 ### Database Entity relationship diagram
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/ERD.png)
 *A link to the ERD for the image [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/ERD.png)*
 
-### Procuring Postgres Instance and connecting the DB to Google Colab
+### Procuring AWS RDS Postgres Instance and connecting the DB to Google Colab
 
-For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS instance on the AWS cloud, wherein, we uplaoded our three master tables. To perform Machine learning analysis, we used create_engine in SQL alchemy to connect AWS Postgres DB to Google Colab, therfore coneecting the Postgres DB on AWS cloud to google colab.
+For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS instance on the AWS cloud, wherein, we uploaded our three master tables. To perform Machine learning analysis, we used create_engine in SQL alchemy to connect AWS Postgres DB to Google Colab, therfore connecting the Postgres DB on AWS cloud to google colab.
 *A link to google colab notebook for the code to steps mentioned above can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
+
+### Defining the Database Schema. A view of the building blocks can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/AWS_SQL_Schema.sql)*
 
 ### Data processing post connecting Postgres DB to Colab.
 - JOIN 'covid_deaths' table with 'food_supply_quantity_kg' table using FULL OUTER JOIN
 - JOIN 'covid_deaths' table with 'food_supply_kcal' table using FULL OUTER JOIN 
+
+*A link to the queries used for joining the different tables can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/AWS_SQL_Queries.sql)*
+
 *A link to google colab notebook for the code to join tables [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
