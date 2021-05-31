@@ -198,9 +198,9 @@ For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS inst
 - JOIN 'covid_deaths' table with 'food_supply_quantity_kg' table using FULL OUTER JOIN
 - JOIN 'covid_deaths' table with 'food_supply_kcal' table using FULL OUTER JOIN 
 
-*A link to the queries used for joining the different tables can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/AWS_SQL_Queries.sql)*
+*The queries used for joining the different tables can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/AWS_SQL_Queries.sql)*
 
-*A link to google colab notebook for the code to join tables [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
+*A link to google colab notebook demonstrating the code for the integration of the AWS Postgres DB, execution of the Join queries and importing the Data into a data frame for further analysis can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
