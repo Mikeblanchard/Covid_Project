@@ -5,6 +5,8 @@
 
 **Selected Topic**: Global Diet, Population and Covid-19 Mortality 
 
+[View Preliminary Slides Here](https://github.com/Mikeblanchard/Covid_Project/blob/main/Presentation-Dashboard)
+
 **Topic selection insight:** In the wake of the Covid-19 pandemic, we chose to explore [specific data](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs) relating to the potential influences that a country's resources (food supply, diet, GDP) has on the likelihood of Covid-19 mortality.
 
 **Desciption of the source of data**: Our [dataset](https://github.com/Mikeblanchard/Covid_Project/blob/mike/CSVs/Merged.csv) contains the calculated fat quantity, energy intake (kcal), food supply quantity (kg), and protein for different categories of food (all calculated as percentage of total intake amount). In addition to this, it includes the obesity and undernourished rate (also in percentage) for comparison. The end of the datasets also included the most up to date confirmed/deaths/recovered/active cases (also in percentage of current population for each country. Additional columns have been merged with the dataset to include population data, Human Development Index Rating (HDI) and GDP Per capita.
