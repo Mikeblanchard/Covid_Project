@@ -21,6 +21,16 @@
   - Is there a relationship between a country's HDI Rating and its number of Covid-19 deaths?
   - Is there a relationship between a country's GDP Per capita and its number of Covid-19 deaths?
 
+**Description of Data Exploration Phase of the Project:**
+
+The exploration phase of our project will be comprised of three main steps:
+
+  1. Exploring the realtionship between a country's Food Supply and their Obesity Rate.
+  2. Exploring the relationship between Obesity rates and deaths related to Covid-19.
+  3. Exploring the relationship between Populations, HDI Rating and GDP Per capita and the number of Covid-19 related deaths per country.
+
+During this exploration phase, we will also be leveraging Tableau to visualize the stories that the data is telling along the way. 
+
 ## Machine Learning Model
 ### Completed by: Holly Ouellette
 
