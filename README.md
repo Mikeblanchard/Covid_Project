@@ -5,7 +5,7 @@
 
 **Selected Topic**: Global Diet, Population and Covid-19 Mortality 
 
-[View Preliminary Slides Here](https://github.com/Mikeblanchard/Covid_Project/blob/main/Presentation-Dashboard)
+[View Preliminary Slides Here](https://docs.google.com/presentation/d/11PeqzxKutvHuJR711tnT93JVy1oSyaQlpK-sssCEsJ0/edit?usp=sharing)
 
 **Topic selection insight:** In the wake of the Covid-19 pandemic, we chose to explore [specific data](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs) relating to the potential influences that a country's resources (food supply, diet, GDP) has on the likelihood of Covid-19 mortality.
 
