@@ -27,9 +27,11 @@ The exploration phase of our project will be comprised of three main steps:
 
   1. Exploring the realtionship between a country's Food Supply and their Obesity Rate.
   2. Exploring the relationship between Obesity rates and deaths related to Covid-19.
-  3. Exploring the relationship between Populations, HDI Rating and GDP Per capita and the number of Covid-19 related deaths per country.
+  3. Exploring the relationship between Populations, HDI Rating and GDP Per capita and the number of Covid-19 related deaths per country. 
 
-During this exploration phase, we will also be leveraging Tableau to visualize the stories that the data is telling along the way. 
+**Description of The Anlaysis Phase of the Project:**
+
+Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators that we have identified as areas of interest in our analysis. During our analysis, we will also be leveraging Tableau to visualize the relationships that exist within our dataset and to showcase our KPIs of interest.
 
 ## Machine Learning Model
 ### Completed by: Holly Ouellette
