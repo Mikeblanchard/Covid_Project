@@ -18,8 +18,8 @@
   - Is there a relationship between obesity and deaths relating to Covid-19? 
   - Is there a relationship between a country's median age and its number of Covid-19 deaths?
   - Is there a relationship between a country's population size and its number of Covid-19 deaths?
-  - Is there a relationship between a country's HDI Rating and its number of Covid-19 deaths?
-  - Is there a relationship between a country's GDP Per capita and its number of Covid-19 deaths?
+  - Is there a relationship between a country's Human Development Index (HDI) Rating and its number of Covid-19 deaths?
+  - Is there a relationship between a country's Gross Domestic Product (GDP) per capita and its number of Covid-19 deaths?
 
 **Description of Data Exploration Phase of the Project:**
 
