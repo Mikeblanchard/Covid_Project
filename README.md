@@ -245,4 +245,4 @@ Supervised, testing and training the dataset to use the global diet features as 
 Supervised, with additional predictors (age, population) as predicators of obesity and covid 19 mortality.
 
 #### Dashboard
-To visualize the results of this project we are going to use HTML and D3.js (nested charts), OR Tableau to create the final dashboard.
+To visualize the results of this project we are going to use Tableau to create the visualizations and test these elements, but ideally we aim to use HTML and D3.js (nested charts), for the final dashboard.
