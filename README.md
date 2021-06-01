@@ -6,7 +6,8 @@
 **Selected Topic**: Global Diet, Population and Covid-19 Mortality 
 
 
-![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/Slides.gif)
+
+![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/slides.gif)
 
 [View Preliminary Slides Here](https://docs.google.com/presentation/d/11PeqzxKutvHuJR711tnT93JVy1oSyaQlpK-sssCEsJ0/edit?usp=sharing)
 
