@@ -138,7 +138,7 @@ We continue to use our Slack channel to communicate. Datasets, links and differe
 
 A new branch was [created](https://github.com/Mikeblanchard/Covid_Project/tree/Viz_Test) as a testing ground for new visualizations and images we may want to use. The most refined have been pulled here:
 
-We will be featuring some interactive visuals like the following, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country:
+We will be featuring some interactive visuals like the following map, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country:
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/Map.gif)
 *A link to the tableau public graphic provided [here](https://public.tableau.com/app/profile/mike.blanchard/viz/Map_16216990656660/Dashboard1)*
