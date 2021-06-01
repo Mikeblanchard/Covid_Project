@@ -25,7 +25,7 @@
 
 The exploration phase of our project will be comprised of three main steps:
 
-  1. Exploring the realtionship between a country's Food Supply and their Obesity Rate.
+  1. Exploring the relationship between a country's Food Supply and their Obesity Rate.
   2. Exploring the relationship between Obesity rates and deaths related to Covid-19.
   3. Exploring the relationship between Populations, HDI Rating and GDP Per capita and the number of Covid-19 related deaths per country. 
 
