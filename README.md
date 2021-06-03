@@ -155,7 +155,7 @@ A visualization of Canada from the total Food Supply kg CSV. Special attention i
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 Prior to Holly's Machine Learning analysis, a correlation test was run across the our chosen features to examine how closely they correlate to our targets of Obesity, Undernourishment, Deaths and Death Rate.
-A pearsonr test was used for this:
+A Pearson r test was used for this:
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/heatmap_image_final.png)
 *A link to the Jupyter Notebook provided [here](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Heatmap_Correlation_Code.ipynb)*
