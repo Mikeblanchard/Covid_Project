@@ -39,30 +39,51 @@ Upon completion of the data exploration, we will analyze our data against the Ke
 
 #### Machine Learning Model Code
 
-All of the Machine Learning Model code that corresponds to the outline below can be found [here](https://github.com/Mikeblanchard/Covid_Project/tree/main/Machine_Learning). 
+All of the Machine Learning Model code that corresponds to the outline below can be found [here](https://github.com/Mikeblanchard/Covid_Project/tree/holly/Machine_Learning_Final). 
 
 #### Description of preliminary data preprocessing:
 
-1.	Import Food_Supply_Quantity_kg_Data.csv
+1.	Import Food_Supply_Quantity_kcal_Data.csv
 
-    - The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
-    - NaN Values will be identified – currently, there are few enough NaN values for us to confidently drop them with no concern over this skewing the final results. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
+    - The columns that will not be used as features or targets in the analysis will be dropped from the data frame.   
 
 2.	Import Deaths.csv
 
     - The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
     - Country names updated so that they math the formatting in the Food_Supply_Quantity_kg_Data.csv to set up it up to merge these DataFrames together. 
-    - Same as above, the NaN Values will be identified. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
 
 3.	Merge the cleaned Deaths.csv and Food_Supply_Quantity_kg_Data.csv on the “Country” column.
 
-#### Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:
+4.	Prior to running the machine learning analysis, any columns that were not selected as features for the machine learning analysis (more on this in the following section) were dropped from the dataset. 
 
-For our primary analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. The features for this analysis were chosen to answer the following question:
+5.	Engineered features (more on this below) to create a target column so that the Machine Learning Algorithm can predict the outcome based on the selected features. 
 
-   - _Is there a relationship between obesity and deaths relating to Covid-19?_
+6.	Used the isnull().sum() functions to identify any NaN values in the dataset that would disrupt the Machine Learning Analysis.
+  - Discovered that less that 4% of the rows in the DataFrame were affected by NaN values. 
+  - Determined that dropping these rows would not create any significant bias in our analysis, and so the NaN rows were dropped from the DataFrame. 
 
-##### Analysis A: Global Diet & Obesity
+#### Description of preliminary feature engineering & preliminary feature selection:
+
+For our Machine Leaning Model, we will be using a supervised machine learning model on the final DataFrame preprocessed in the steps above. Prior to executing our analysis, our data required further feature engineering: 
+
+##### Preliminary Feature Engineering
+
+The target feature that we have selected for our Machine Learning Analysis is "Total Deaths Per Million".
+
+Since this variable is continuous, we used that Pandas .cut() function to bucket the data into three possible outcomes so that it is compatible with our machine learning algorithm:
+
+  - Total Deaths Per Million 0 - 1000 = "low" Deaths per Million
+  - Total Deaths Per Million 1000 - 2000 = "moderate" Deaths per Million
+  - Total Deaths Per Million 2000 - 3000 = "high" Deaths per Million
+
+##### Feature Selection
+
+The features for our selection were based on the three questions that we are hoping to answer with our data:
+  
+  - Are we able to predict the level of deaths from Covid-19 based on a country's food supply?
+  - Does a country's population facts effect the likelihood of death as an outcome of Covid-19?
+  - Can a country's HDI Rating, GDP & Life Expectancy be predictors of it's Covid-19 Death Outcomes?
+  - Is the machine learning model more accurate when all of the features are included? 
 
 _Features(X)_:
   - Alcoholic Beverages	
@@ -82,33 +103,22 @@ _Features(X)_:
   - Treenuts	
   - Vegetal Products	
   - Vegetables
-  - Obeisity 
+  - total_deaths_per_million	
+  - population	
+  - population_density	
+  - median_age	
+  - aged_65_older	
+  - aged_70_older	
+  - gdp_per_capita	
+  - life_expectancy	
+  - human_development_index
 
 _Target(y)_:
-  - Deaths 
-
-In our Population Analysis we will merge additional data (Deaths.csv) with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. The features for this analysis were chosen to answer the following questions:
-  - _Is there a relationship between a country's food supply and obesity?_
-  - _Is there a relationship between a obesity and Covid-19-related mortality?_
-  - _Is there a relationship between a country's age data and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's population data and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's HDI Rating & GDP Per capita and its number of Covid-19 deaths?_
-    
-##### Analysis B :Population & Covid-19 Mortality 
-
-_Features(X)_:
-  - median_age
-  - population
-  - population_density
-  - HDI_Rating
-  - GDP_Per_capita
-
-_Target(y)_:
-  - Deaths 
+  - deaths_outcomes
  
 #### Description of how data was split into training and testing sets:
 
-To split our data into training and testing sets, we will execute the train_test_split() function so that the data is plit into a specific proportion of the original data sets. We will use the default training and testing set proportions:
+To split our data into training and testing sets, we will execute the train_test_split() function so that the data is split into a specific proportion of the original data sets. We will use the default training and testing set proportions:
 
   - 75% Training
   - 25% Testing
@@ -129,6 +139,30 @@ _Drawbacks of this model include:_
  - Often requires more time to train the model. 
  - It is computationally expensive. 
 
+#### Explanation of changes in model choice:
+
+No changes were made to our Machine Learning model between the Segment 2 and Segment 3 deliverables. 
+
+#### Description of how the model has been trained thus far:
+
+  1. Once split into Training and Testing Sets, we used Scikit-learn's StandardScaler to standardize the data and fit the instance with the training data. Next the StandardScaler is used to scale the features with the transform() method.
+
+  2. Next, we created the decision tree classifier instance so that we could train the "model" with the scaled training data.  
+
+  3. Once trained, we used the .predict() function to make predictions using the scaled testing data.
+
+_*No additional training will be taking place*_
+
+#### Description of Current Accuracy Score:
+
+
+<img align="right" src="https://github.com/Mikeblanchard/Covid_Project/blob/holly/Machine_Learning_Final/Analysis/final_analysis_confusion_matrix.png" width=400>
+
+Our two KPIs of focus for this analysis are _**Precision**_ and _**Accuracy**_. 
+  - Precision was selected as a KPI since with this type of analysis, we are seeking to measure how _reliable_ a positive classification is versus it capturing all positive samples. 
+  - Accuracy(/F1 Score) was selected so that we can determine how reliable our Machine Learning Model in making accurate predictions.
+
+Our confusion matrix showcases that as a whole, our Machine Learning Model performs with 75% accuracy and with 84% precision. This Machine Learning Model is extremely accurate when predicting whether a country will have Low Deaths Per Million, however it has weak Precision and Accuracy score for predicting High and Moderate Deaths Per Million.  
 
 ## Github and Communications
 ### Completed by: Mike Blanchard
