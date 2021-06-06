@@ -10,54 +10,31 @@
 
 [View Preliminary Slides Here](https://docs.google.com/presentation/d/11PeqzxKutvHuJR711tnT93JVy1oSyaQlpK-sssCEsJ0/edit?usp=sharing)
 
-**Topic selection insight:** In the wake of the Covid-19 pandemic, we chose to explore [specific data](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs) relating to the potential influences that a country's resources (food supply, diet, GDP) has on the likelihood of Covid-19 mortality.
+**Topic selection insight:** In the wake of the Covid-19 pandemic, we chose to explore [specific data](https://github.com/Mikeblanchard/Covid_Project/tree/main/CSVs) relating to the potential influences that a country's resources, population and quality of life has on the likelihood of Covid-19 mortality.
 
 **Desciption of the source of data**: Our [dataset](https://github.com/Mikeblanchard/Covid_Project/blob/mike/CSVs/Merged.csv) contains the calculated fat quantity, energy intake (kcal), food supply quantity (kg), and protein for different categories of food (all calculated as percentage of total intake amount). In addition to this, it includes the obesity and undernourished rate (also in percentage) for comparison. The end of the datasets also included the most up to date confirmed/deaths/recovered/active cases (also in percentage of current population for each country. Additional columns have been merged with the dataset to include population data, Human Development Index Rating (HDI) and GDP Per capita.
 
 **Questions we hope to answer with the data:**
-  - Is there a relationship between obesity and deaths relating to Covid-19? 
-  - Is there a relationship between a country's median age and its number of Covid-19 deaths?
-  - Is there a relationship between a country's population size and its number of Covid-19 deaths?
-  - Is there a relationship between a country's Human Development Index (HDI) Rating and its number of Covid-19 deaths?
-  - Is there a relationship between a country's Gross Domestic Product (GDP) per capita and its number of Covid-19 deaths?
+- Are we able to predict the level of deaths from Covid-19 based on a country's food supply?
+- Does a country's population facts effect the likelihood of death as an outcome of Covid-19?
+- Can a country's HDI Rating, GDP & Life Expectancy be predictors of it's Covid-19 Death Outcomes?
 
 **Description of Data Exploration Phase of the Project:**
 
 The exploration phase of our project will be comprised of three main steps:
 
-  1. Exploring the relationship between a country's Food Supply and their Obesity Rate.
-  2. Exploring the relationship between Obesity rates and deaths related to Covid-19.
-  3. Exploring the relationship between Populations, HDI Rating and GDP Per capita and the number of Covid-19 related deaths per country. 
+  1. Exploring the relationship between a country's Food Supply and their Covid Deaths per Million. 
+  2. Exploring the relationship between a country's Population features and their Covid Deather per Million.
+  3. Exploring the relationship between HDI Rating, GDP Per capita and Like Expectancy and their Covid Deaths per Million.
 
 **Description of The Anlaysis Phase of the Project:**
 
 Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators that we have identified as areas of interest in our analysis. During our analysis, we will also be leveraging Tableau to visualize the relationships that exist within our dataset and to showcase our KPIs of interest.
 
+**Technologies Used**
 
-## Technologies Used
-### Completed by: Mariela Karadzhova 
-
-Language: Python
-
-#### Data Cleaning and Analysis
-Working with Python and Jupyter Notebook, Pandas will be used to clean and organize the data for this project, and to perform our exploratory analyses.
-
-#### Database Storage
-SQLite is the database we intend to use for this project.
-
-#### Machine Learning
-We intend to use Jupyter Notebook to create two separate but similar supervised machine learning models for each analysis:
-
-**Anaysis 1 - Global Diet & Obesity/ Obesity & Covid Mortality**
-
-Supervised, testing and training the dataset to use the global diet features as predictors for obesity and then obesity as a predictor for covid mortality.
-
-**Analysis 2 - Population & Obesity/ Population & Covid-19 Mortality**
-
-Supervised, with additional predictors (age, population) as predicators of obesity and covid 19 mortality.
-
-#### Dashboard
-To visualize the results of this project we are going to use Tableau to create the visualizations and test these elements, but ideally we aim to use HTML and D3.js (nested charts), for the final dashboard.
+_Software_: Google Colab, Python, Heroku, SQLite, Tableau
+_Libraries_: Pandas, Scikit-learn, SQLAlchemy, Path
 
 ## Machine Learning Model
 ### Completed by: Holly Ouellette
@@ -279,4 +256,4 @@ For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS inst
 
 *A link to google colab notebook demonstrating the code for the integration of the AWS Postgres DB, execution of the Join queries and importing the Data into a data frame for further analysis can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+
