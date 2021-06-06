@@ -45,25 +45,35 @@ All of the Machine Learning Model code that corresponds to the outline below can
 
 1.	Import Food_Supply_Quantity_kcal_Data.csv
 
-    - The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
-    - NaN Values will be identified – currently, there are few enough NaN values for us to confidently drop them with no concern over this skewing the final results. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
+    - The columns that will not be used as features or targets in the analysis will be dropped from the data frame.   
 
 2.	Import Deaths.csv
 
     - The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
     - Country names updated so that they math the formatting in the Food_Supply_Quantity_kg_Data.csv to set up it up to merge these DataFrames together. 
-    - Same as above, the NaN Values will be identified. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
 
 3.	Merge the cleaned Deaths.csv and Food_Supply_Quantity_kg_Data.csv on the “Country” column.
 
-#### Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:
+4.	Prior to running the machine learning analysis, any columns that were not selected as features for the machine learning analysis (more on this in the following section) were dropped from the dataset. 
+
+5.	Engineered features (more on this below) to create a target column so that the Machine Learning Algorithm can predict the oucome based on the selected features. 
+
+6.	Used the isnull().sum() functions to identify any NaN values in the dataset that would disrupt the Machine Learning Analysis.
+  - Discovered that less that 4% of the rows in the DataFrame were affected by NaN values. 
+  - Determined that dropping these rows would not create any significant bias in our analysis, and so the NaN rows were dropped from the DataFrame. 
+
+
+#### Description of preliminary feature engineering & preliminary feature selection:
 
 For our Machine Leaning Model, we will be using a supervised machine learning model on a merged DataFrame containing data from both the Food_Supply_Quantity_kcal_Data.csv, containing food supply data per country, and the Deaths.csv, countaining population data per country. 
 
 ##### Preliminary Feature Engineering
 
- The target variable that we have selected is "Total Deaths Per Million". 
- Since this variable is continuous, we used that Pandas .cut() function to bucket bucketed it into three possible outcomes for the features to predictm - 
+The target feature that we have selected for our Machine Learning Analysis is "Total Deaths Per Million".
+
+Since this variable is continuous, we used that Pandas .cut() function to bucket the data into three possible outcomes so that it is compatible with our machine learning algorythm:
+  - Total Deaths Per Million 0 - 1000 = "low" Deaths per Million
+  - Total Deaths Per Million 1000 - 2000 = "moderate"
 
    - _Is there a relationship between obesity and deaths relating to Covid-19?_
 
