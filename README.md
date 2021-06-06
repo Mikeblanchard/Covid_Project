@@ -103,29 +103,18 @@ _Features(X)_:
   - Treenuts	
   - Vegetal Products	
   - Vegetables
-  - Obeisity 
+  - total_deaths_per_million	
+  - population	
+  - population_density	
+  - median_age	
+  - aged_65_older	
+  - aged_70_older	
+  - gdp_per_capita	
+  - life_expectancy	
+  - human_development_index
 
 _Target(y)_:
-  - Deaths 
-
-In our Population Analysis we will merge additional data (Deaths.csv) with the existing DataFrame that includes population data for each of the countries in the Food Supply Data set. The features for this analysis were chosen to answer the following questions:
-  - _Is there a relationship between a country's food supply and obesity?_
-  - _Is there a relationship between a obesity and Covid-19-related mortality?_
-  - _Is there a relationship between a country's age data and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's population data and its number of Covid-19 deaths?_
-  - _Is there a relationship between a country's HDI Rating & GDP Per capita and its number of Covid-19 deaths?_
-    
-##### Analysis B :Population & Covid-19 Mortality 
-
-_Features(X)_:
-  - median_age
-  - population
-  - population_density
-  - HDI_Rating
-  - GDP_Per_capita
-
-_Target(y)_:
-  - Deaths 
+  - deaths_outcomes
  
 #### Description of how data was split into training and testing sets:
 
@@ -150,6 +139,21 @@ _Drawbacks of this model include:_
  - Often requires more time to train the model. 
  - It is computationally expensive. 
 
+#### Explanation of changes in model choice:
+
+No changes were were made to our Machine Learning model betwen the Segment 2 and Segment 3 deliverables. 
+
+#### Description of how the model has been trained thus far:
+
+  1. Once split into Training and Testing Sets, we used Scikit-learn's StandardScaler to standardize the data and fit the instance with the training data. Next the StandardScaler is used to scale the features with the transform() method.
+
+  2. Next, we created the decision tree classifier instance so that we could train the "model" with the scaled training data.  
+
+  3. Once trained, we used the .predict() function to make predictions using the scaled testing data.
+
+_*No additional training will be taking place*
+
+#### Description of Current Accuracy Score:
 
 ## Github and Communications
 ### Completed by: Mike Blanchard
