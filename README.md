@@ -6,7 +6,6 @@
 **Selected Topic**: Global Diet, Population and Covid-19 Mortality 
 
 
-
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/slides.gif)
 
 [View Preliminary Slides Here](https://docs.google.com/presentation/d/11PeqzxKutvHuJR711tnT93JVy1oSyaQlpK-sssCEsJ0/edit?usp=sharing)
@@ -33,6 +32,32 @@ The exploration phase of our project will be comprised of three main steps:
 **Description of The Anlaysis Phase of the Project:**
 
 Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators that we have identified as areas of interest in our analysis. During our analysis, we will also be leveraging Tableau to visualize the relationships that exist within our dataset and to showcase our KPIs of interest.
+
+
+## Technologies Used
+### Completed by: Mariela Karadzhova 
+
+Language: Python
+
+#### Data Cleaning and Analysis
+Working with Python and Jupyter Notebook, Pandas will be used to clean and organize the data for this project, and to perform our exploratory analyses.
+
+#### Database Storage
+SQLite is the database we intend to use for this project.
+
+#### Machine Learning
+We intend to use Jupyter Notebook to create two separate but similar supervised machine learning models for each analysis:
+
+**Anaysis 1 - Global Diet & Obesity/ Obesity & Covid Mortality**
+
+Supervised, testing and training the dataset to use the global diet features as predictors for obesity and then obesity as a predictor for covid mortality.
+
+**Analysis 2 - Population & Obesity/ Population & Covid-19 Mortality**
+
+Supervised, with additional predictors (age, population) as predicators of obesity and covid 19 mortality.
+
+#### Dashboard
+To visualize the results of this project we are going to use Tableau to create the visualizations and test these elements, but ideally we aim to use HTML and D3.js (nested charts), for the final dashboard.
 
 ## Machine Learning Model
 ### Completed by: Holly Ouellette
@@ -255,28 +280,3 @@ For this Anlysis, we will be using Postgres DB. We procured an Postgres RDS inst
 *A link to google colab notebook demonstrating the code for the integration of the AWS Postgres DB, execution of the Join queries and importing the Data into a data frame for further analysis can be viewed [here](https://github.com/Mikeblanchard/Covid_Project/blob/arjun/Covid_project_Database_integration.ipynb)*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Technologies Used
-### Completed by: Mariela Karadzhova 
-
-Language: Python
-
-#### Data Cleaning and Analysis
-Working with Python and Jupyter Notebook, Pandas will be used to clean and organize the data for this project, and to perform our exploratory analyses.
-
-#### Database Storage
-SQLite is the database we intend to use for this project.
-
-#### Machine Learning
-We intend to use Jupyter Notebook to create two separate but similar supervised machine learning models for each analysis:
-
-**Anaysis 1 - Global Diet & Obesity/ Obesity & Covid Mortality**
-
-Supervised, testing and training the dataset to use the global diet features as predictors for obesity and then obesity as a predictor for covid mortality.
-
-**Analysis 2 - Population & Obesity/ Population & Covid-19 Mortality**
-
-Supervised, with additional predictors (age, population) as predicators of obesity and covid 19 mortality.
-
-#### Dashboard
-To visualize the results of this project we are going to use Tableau to create the visualizations and test these elements, but ideally we aim to use HTML and D3.js (nested charts), for the final dashboard.
