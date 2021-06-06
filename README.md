@@ -43,7 +43,7 @@ All of the Machine Learning Model code that corresponds to the outline below can
 
 #### Description of preliminary data preprocessing:
 
-1.	Import Food_Supply_Quantity_kg_Data.csv
+1.	Import Food_Supply_Quantity_kcal_Data.csv
 
     - The columns that will not be used as features or targets in the analysis will be dropped from the data frame. 
     - NaN Values will be identified – currently, there are few enough NaN values for us to confidently drop them with no concern over this skewing the final results. As a group, we are continuing to research best practices to deal with the NaN values should more arise during our data preprocessing.  
@@ -58,7 +58,12 @@ All of the Machine Learning Model code that corresponds to the outline below can
 
 #### Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:
 
-For our primary analysis, we will be using a supervised machine learning model on the Food Supply Quantity Data. The features for this analysis were chosen to answer the following question:
+For our Machine Leaning Model, we will be using a supervised machine learning model on a merged DataFrame containing data from both the Food_Supply_Quantity_kcal_Data.csv, containing food supply data per country, and the Deaths.csv, countaining population data per country. 
+
+##### Preliminary Feature Engineering
+
+ The target variable that we have selected is "Total Deaths Per Million". 
+ Since this variable is continuous, we used that Pandas .cut() function to bucket bucketed it into three possible outcomes for the features to predictm - 
 
    - _Is there a relationship between obesity and deaths relating to Covid-19?_
 
