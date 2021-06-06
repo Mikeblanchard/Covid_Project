@@ -39,7 +39,7 @@ Upon completion of the data exploration, we will analyze our data against the Ke
 
 #### Machine Learning Model Code
 
-All of the Machine Learning Model code that corresponds to the outline below can be found [here](https://github.com/Mikeblanchard/Covid_Project/tree/main/Machine_Learning). 
+All of the Machine Learning Model code that corresponds to the outline below can be found [here](https://github.com/Mikeblanchard/Covid_Project/tree/holly/Machine_Learning_Final). 
 
 #### Description of preliminary data preprocessing:
 
