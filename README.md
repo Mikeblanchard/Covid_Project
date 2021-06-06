@@ -155,6 +155,15 @@ _*No additional training will be taking place*
 
 #### Description of Current Accuracy Score:
 
+
+<img align="left" src="https://github.com/Mikeblanchard/Covid_Project/blob/holly/Machine_Learning_Final/Analysis/final_analysis_confusion_matrix.png" width=500>
+
+Our two KPIs of focus for this analysis are _**Precision**_ and _**Accuracy**_. 
+  - Precision was selected as a KPI since with this type of analysis, we are seeking to measure how _reliable_ a positive classification is versus it capturing all postive samples. 
+  - Accuracy(/F1 Score) was selected so that we can determine how reliable our Machine Learning Model in making accurate predictions.
+
+Our confusion matrix showcases that as a whole, our Machine Learning Model performs with 75% accuracy and with 84% precision. This Machine Learning Model is extermely accurate when predicting whether a country will have Low Deaths Per Million, however it has weak Precision and Accuracy score for predicting High and Moderate Deaths Per Million.  
+
 ## Github and Communications
 ### Completed by: Mike Blanchard
 
