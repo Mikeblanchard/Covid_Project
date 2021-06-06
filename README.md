@@ -56,7 +56,7 @@ All of the Machine Learning Model code that corresponds to the outline below can
 
 4.	Prior to running the machine learning analysis, any columns that were not selected as features for the machine learning analysis (more on this in the following section) were dropped from the dataset. 
 
-5.	Engineered features (more on this below) to create a target column so that the Machine Learning Algorithm can predict the oucome based on the selected features. 
+5.	Engineered features (more on this below) to create a target column so that the Machine Learning Algorithm can predict the outcome based on the selected features. 
 
 6.	Used the isnull().sum() functions to identify any NaN values in the dataset that would disrupt the Machine Learning Analysis.
   - Discovered that less that 4% of the rows in the DataFrame were affected by NaN values. 
@@ -64,13 +64,13 @@ All of the Machine Learning Model code that corresponds to the outline below can
 
 #### Description of preliminary feature engineering & preliminary feature selection:
 
-For our Machine Leaning Model, we will be using a supervised machine learning model on the final DataFrame preprocessed in the steps above. Prior to executing our analysis, our data required furthur feature engineering: 
+For our Machine Leaning Model, we will be using a supervised machine learning model on the final DataFrame preprocessed in the steps above. Prior to executing our analysis, our data required further feature engineering: 
 
 ##### Preliminary Feature Engineering
 
 The target feature that we have selected for our Machine Learning Analysis is "Total Deaths Per Million".
 
-Since this variable is continuous, we used that Pandas .cut() function to bucket the data into three possible outcomes so that it is compatible with our machine learning algorythm:
+Since this variable is continuous, we used that Pandas .cut() function to bucket the data into three possible outcomes so that it is compatible with our machine learning algorithm:
 
   - Total Deaths Per Million 0 - 1000 = "low" Deaths per Million
   - Total Deaths Per Million 1000 - 2000 = "moderate" Deaths per Million
@@ -118,7 +118,7 @@ _Target(y)_:
  
 #### Description of how data was split into training and testing sets:
 
-To split our data into training and testing sets, we will execute the train_test_split() function so that the data is plit into a specific proportion of the original data sets. We will use the default training and testing set proportions:
+To split our data into training and testing sets, we will execute the train_test_split() function so that the data is split into a specific proportion of the original data sets. We will use the default training and testing set proportions:
 
   - 75% Training
   - 25% Testing
@@ -141,7 +141,7 @@ _Drawbacks of this model include:_
 
 #### Explanation of changes in model choice:
 
-No changes were were made to our Machine Learning model betwen the Segment 2 and Segment 3 deliverables. 
+No changes were made to our Machine Learning model between the Segment 2 and Segment 3 deliverables. 
 
 #### Description of how the model has been trained thus far:
 
@@ -151,7 +151,7 @@ No changes were were made to our Machine Learning model betwen the Segment 2 and
 
   3. Once trained, we used the .predict() function to make predictions using the scaled testing data.
 
-_*No additional training will be taking place*
+_*No additional training will be taking place*_
 
 #### Description of Current Accuracy Score:
 
@@ -159,10 +159,10 @@ _*No additional training will be taking place*
 <img align="right" src="https://github.com/Mikeblanchard/Covid_Project/blob/holly/Machine_Learning_Final/Analysis/final_analysis_confusion_matrix.png" width=400>
 
 Our two KPIs of focus for this analysis are _**Precision**_ and _**Accuracy**_. 
-  - Precision was selected as a KPI since with this type of analysis, we are seeking to measure how _reliable_ a positive classification is versus it capturing all postive samples. 
+  - Precision was selected as a KPI since with this type of analysis, we are seeking to measure how _reliable_ a positive classification is versus it capturing all positive samples. 
   - Accuracy(/F1 Score) was selected so that we can determine how reliable our Machine Learning Model in making accurate predictions.
 
-Our confusion matrix showcases that as a whole, our Machine Learning Model performs with 75% accuracy and with 84% precision. This Machine Learning Model is extermely accurate when predicting whether a country will have Low Deaths Per Million, however it has weak Precision and Accuracy score for predicting High and Moderate Deaths Per Million.  
+Our confusion matrix showcases that as a whole, our Machine Learning Model performs with 75% accuracy and with 84% precision. This Machine Learning Model is extremely accurate when predicting whether a country will have Low Deaths Per Million, however it has weak Precision and Accuracy score for predicting High and Moderate Deaths Per Million.  
 
 ## Github and Communications
 ### Completed by: Mike Blanchard
