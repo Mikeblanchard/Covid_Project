@@ -156,7 +156,7 @@ _*No additional training will be taking place*
 #### Description of Current Accuracy Score:
 
 
-<img align="left" src="https://github.com/Mikeblanchard/Covid_Project/blob/holly/Machine_Learning_Final/Analysis/final_analysis_confusion_matrix.png" width=500>
+<img align="right" src="https://github.com/Mikeblanchard/Covid_Project/blob/holly/Machine_Learning_Final/Analysis/final_analysis_confusion_matrix.png" width=400>
 
 Our two KPIs of focus for this analysis are _**Precision**_ and _**Accuracy**_. 
   - Precision was selected as a KPI since with this type of analysis, we are seeking to measure how _reliable_ a positive classification is versus it capturing all postive samples. 
