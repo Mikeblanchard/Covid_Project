@@ -19,6 +19,10 @@
 - Does a country's population facts effect the likelihood of death as an outcome of Covid-19?
 - Can a country's HDI Rating, GDP & Life Expectancy be predictors of it's Covid-19 Death Outcomes?
 
+**Null Hypothesis:** there is no significant relationship between Food Supply, Population Data, HDI/DPT and a country’s Covid-19 Death rate.
+
+**Alternative Hypothesis:** A Country’s Death Rate can be predicted with > 75% accuracy by it’s Food Supply, Population, HDI Rating & GDP. 
+
 **Description of Data Exploration Phase of the Project:**
 
 The exploration phase of our project will be comprised of three main steps:
