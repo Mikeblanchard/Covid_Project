@@ -62,22 +62,28 @@ All of the Machine Learning Model code that corresponds to the outline below can
   - Discovered that less that 4% of the rows in the DataFrame were affected by NaN values. 
   - Determined that dropping these rows would not create any significant bias in our analysis, and so the NaN rows were dropped from the DataFrame. 
 
-
 #### Description of preliminary feature engineering & preliminary feature selection:
 
-For our Machine Leaning Model, we will be using a supervised machine learning model on a merged DataFrame containing data from both the Food_Supply_Quantity_kcal_Data.csv, containing food supply data per country, and the Deaths.csv, countaining population data per country. 
+For our Machine Leaning Model, we will be using a supervised machine learning model on the final DataFrame preprocessed in the steps above. Prior to executing our analysis, our data required furthur feature engineering: 
 
 ##### Preliminary Feature Engineering
 
 The target feature that we have selected for our Machine Learning Analysis is "Total Deaths Per Million".
 
 Since this variable is continuous, we used that Pandas .cut() function to bucket the data into three possible outcomes so that it is compatible with our machine learning algorythm:
+
   - Total Deaths Per Million 0 - 1000 = "low" Deaths per Million
-  - Total Deaths Per Million 1000 - 2000 = "moderate"
+  - Total Deaths Per Million 1000 - 2000 = "moderate" Deaths per Million
+  - Total Deaths Per Million 2000 - 3000 = "high" Deaths per Million
 
-   - _Is there a relationship between obesity and deaths relating to Covid-19?_
+##### Feature Selection
 
-##### Analysis A: Global Diet & Obesity
+The features for our selection were based on the three questions that we are hoping to answer with our data:
+  
+  - Are we able to predict the level of deaths from Covid-19 based on a country's food supply?
+  - Does a country's population facts effect the likelihood of death as an outcome of Covid-19?
+  - Can a country's HDI Rating, GDP & Life Expectancy be predictors of it's Covid-19 Death Outcomes?
+  - Is the machine learning model more accurate when all of the features are included? 
 
 _Features(X)_:
   - Alcoholic Beverages	
