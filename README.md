@@ -118,6 +118,7 @@ _Features(X)_:
   - gdp_per_capita	
   - life_expectancy	
   - human_development_index
+  - obesity
 
 _Target(y)_:
   - deaths_outcomes
