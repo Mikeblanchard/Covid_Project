@@ -15,7 +15,7 @@
 **Desciption of the source of data**: Our [dataset](https://github.com/Mikeblanchard/Covid_Project/blob/mike/CSVs/Merged.csv) contains the calculated fat quantity, energy intake (kcal), food supply quantity (kg), and protein for different categories of food (all calculated as percentage of total intake amount). In addition to this, it includes the obesity and undernourished rate (also in percentage) for comparison. The end of the datasets also included the most up to date confirmed/deaths/recovered/active cases (also in percentage of current population for each country. Additional columns have been merged with the dataset to include population data, Human Development Index Rating (HDI) and GDP Per capita.
 
 **Questions we hope to answer with the data:**
-- Are we able to predict the level of deaths from Covid-19 based on a country's food supply?
+- Are we able to predict the level of deaths from Covid-19 based on a country's food supply and obesity level?
 - Does a country's population facts effect the likelihood of death as an outcome of Covid-19?
 - Can a country's HDI Rating, GDP & Life Expectancy be predictors of it's Covid-19 Death Outcomes?
 
@@ -27,7 +27,7 @@
 
 The exploration phase of our project will be comprised of three main steps:
 
-  1. Exploring the relationship between a country's Food Supply and their Covid Deaths per Million. 
+  1. Exploring the relationship between a country's Food Supply, Obesity level and their Covid Deaths per Million. 
   2. Exploring the relationship between a country's Population features and their Covid Deather per Million.
   3. Exploring the relationship between HDI Rating, GDP Per capita and Like Expectancy and their Covid Deaths per Million.
 
@@ -86,7 +86,7 @@ Since this variable is continuous, we used that Pandas .cut() function to bucket
 
 The features for our selection were based on the three questions that we are hoping to answer with our data:
   
-  - Are we able to predict the level of deaths from Covid-19 based on a country's food supply?
+  - Are we able to predict the level of deaths from Covid-19 based on a country's food supply and obesity level?
   - Does a country's population facts effect the likelihood of death as an outcome of Covid-19?
   - Can a country's HDI Rating, GDP & Life Expectancy be predictors of it's Covid-19 Death Outcomes?
   - Is the machine learning model more accurate when all of the features are included? 
