@@ -180,6 +180,10 @@ We continue to use our Slack channel to communicate. Datasets, links and differe
 
 A new branch was [created](https://github.com/Mikeblanchard/Covid_Project/tree/Viz_Test) as a testing ground for new visualizations and images we may want to use. The most refined have been pulled here:
 
+Intersting to see the change in which features were important between the correlation test and the Machine Learning Results:
+
+![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/Machine_Learning_Change.png)
+
 A New interactive map detailed the categories we focused on was created. 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/Viz_Test/Resources_mike/World_map.png)
 
