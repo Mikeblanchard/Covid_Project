@@ -183,6 +183,9 @@ A new branch was [created](https://github.com/Mikeblanchard/Covid_Project/tree/V
 A New interactive map detailed the categories we focused on was created. 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/Viz_Test/Resources_mike/World_map.png)
 
+In which countries can be selected and compared, all colour aspects representing death rate to be visable at all times. 
+
+![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/World_map2.png)
 A link to the Tableau public dashboard [provided here](https://public.tableau.com/views/MapofCovid-19Deaths/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 We will be featuring some interactive visuals like the following map, which displays Covid-19 deaths by country as well as features of interest, such as the obesity rate, undernourished rate, GDP per capita, Human Development Index rating and population of the country:
