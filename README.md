@@ -37,6 +37,10 @@ The exploration phase of our project will be comprised of three main steps:
 
 Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators that we have identified as areas of interest in our analysis. During our analysis, we will also be leveraging Tableau to visualize the relationships that exist within our dataset and to showcase our KPIs of interest.
 
+**KPI's of Interest**
+-Precision
+-Accuracy
+
 **Technologies Used**
 
 _Software_: Google Colab, Python, HTML, SQLite, Tableau, AWS, Postgres DB<br>
