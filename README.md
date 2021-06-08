@@ -39,7 +39,7 @@ Upon completion of the data exploration, we will analyze our data against the Ke
 
 **Technologies Used**
 
-_Software_: Google Colab, Python, Heroku, SQLite, Tableau, AWS, Postgres DB<br>
+_Software_: Google Colab, Python, HTML, SQLite, Tableau, AWS, Postgres DB<br>
 _Libraries_: Pandas, Scikit-learn, SQLAlchemy, Path
 
 ## Machine Learning Model
