@@ -30,8 +30,8 @@ Along with the slides, we will be using a Github page to host our analysis, [loc
 The exploration phase of our project will be comprised of three main steps:
 
   1. Exploring the relationship between a country's Food Supply, Obesity level and their Covid Deaths per Million. 
-  2. Exploring the relationship between a country's Population features and their Covid Deather per Million.
-  3. Exploring the relationship between HDI Rating, GDP Per capita and Like Expectancy and their Covid Deaths per Million.
+  2. Exploring the relationship between a country's Population features and their Covid Deaths per Million.
+  3. Exploring the relationship between HDI Rating, GDP Per capita, Life Expectancy and the each country's Covid Deaths per Million.
 
 **Description of The Anlaysis Phase of the Project:**
 
