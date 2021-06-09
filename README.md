@@ -35,13 +35,15 @@ The exploration phase of our project will be comprised of three main steps:
 
 **Description of The Anlaysis Phase of the Project:**
 
-Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators that we have identified as areas of interest in our analysis. During our analysis, we will also be leveraging Tableau to visualize the relationships that exist within our dataset and to showcase our KPIs of interest.
+Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators(KPIs)* that we have identified as areas of interest in our analysis. During our analysis, we will also be applyinng Tableau to visualize the relationships that exist within our dataset, and to showcase the KPIs of interest.
 
-**KPI's of Interest:**
+**KPIs*:**
 
   -Precision
   
   -Accuracy
+  
+  # See "Description of Current Accuracy Score:" section below for details.
 
 **Technologies Used**
 
@@ -173,11 +175,11 @@ _*No additional training will be taking place*_
 
 <img align="right" src="https://github.com/Mikeblanchard/Covid_Project/blob/main/Machine_Learning_Final/Analysis/final_analysis_confusion_matrix.png" width=500>
 
-Our two KPIs of focus for this analysis are _**Precision**_ and _**Accuracy**_. 
+In detail, the two Key Performance Indicatiors (KPIs) of focus for this analysis are _**Precision**_ and _**Accuracy**_. 
   - Precision was selected as a KPI since with this type of analysis, we are seeking to measure how _reliable_ a positive classification is versus it capturing all positive samples. 
   - Accuracy(/F1 Score) was selected so that we can determine how reliable our Machine Learning Model in making accurate predictions.
 
-Our confusion matrix showcases that as a whole, our Machine Learning Model performs with 75% accuracy and with 84% precision. This Machine Learning Model is extremely accurate when predicting whether a country will have Low Deaths Per Million, however it has weak Precision and Accuracy score for predicting High and Moderate Deaths Per Million.  
+Our confusion matrix showcases the KIPas a whole, our Machine Learning Model performs with 75% accuracy and with 84% precision. This Machine Learning Model is extremely accurate when predicting whether a country will have Low Deaths Per Million, however it has weak Precision and Accuracy score for predicting High and Moderate Deaths Per Million.  
 
 ## Github and Communications
 ### Completed by: Mike Blanchard
