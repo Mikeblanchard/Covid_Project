@@ -35,7 +35,7 @@ The exploration phase of our project will be comprised of three main steps:
 
 **Description of The Anlaysis Phase of the Project:**
 
-Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators(KPIs)* that we have identified as areas of interest in our analysis. During our analysis, we will also be applyinng Tableau to visualize the relationships that exist within our dataset, and to showcase the KPIs of interest.
+Upon completion of the data exploration, we will analyze our data against the Key Performance Indicators (KPIs)* that we have identified as areas of interest in our analysis. To visualize the results of our analysis, we will use Tableau to display the relationships that exist within our dataset, and to showcase the KPIs of interest. 
 
 #### **KPIs*:**
 
