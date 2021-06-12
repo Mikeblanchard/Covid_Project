@@ -5,10 +5,9 @@ Worldwide Covid-19 Cases                                                        
 :-------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/World.gif)|![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/horserace.gif)
 
+As Covid spreads and worsens around the world, We chose to analyze Global Diet, Population and Covid-19 Mortality
+
 ## Presentation
-
-**Selected Topic**: Global Diet, Population and Covid-19 Mortality 
-
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/slides.gif)
 
