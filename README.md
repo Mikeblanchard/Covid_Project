@@ -1,7 +1,9 @@
 
 # Global Diet, Population & Covid-19 Mortality
 
-![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/World.gif) ![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/horserace.gif)
+Worldwide Covid-19 Cases                                                                    |Worldwide Covid-19 Deaths
+:-------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:
+![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/World.gif)|![](https://github.com/Mikeblanchard/Covid_Project/blob/mike/Resources_mike/horserace.gif)
 
 ## Presentation
 
