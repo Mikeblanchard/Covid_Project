@@ -11,7 +11,7 @@ As Covid spreads and worsens around the world, We chose to analyze Global Diet, 
 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/slides.gif)
 
-[View Preliminary Slides Here](https://docs.google.com/presentation/d/11PeqzxKutvHuJR711tnT93JVy1oSyaQlpK-sssCEsJ0/edit?usp=sharing)
+[View Presentation Slides Here](https://docs.google.com/presentation/d/11PeqzxKutvHuJR711tnT93JVy1oSyaQlpK-sssCEsJ0/edit?usp=sharing)
 
 Along with the slides, we will be using a Github page to host our analysis, [located here](https://mikeblanchard.github.io/Covid_Page/)
 
