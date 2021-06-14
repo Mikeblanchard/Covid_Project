@@ -200,7 +200,7 @@ A new branch was [created](https://github.com/Mikeblanchard/Covid_Project/tree/V
 
 Intersting to see the change in which features were important between the correlation test and the Machine Learning Results:
 
-![]https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/ML_Corr_GIF.gif)
+![](https://github.com/Mikeblanchard/Covid_Project/blob/main/Resources_mike/ML_Corr_GIF.gif)
 
 A New interactive map detailed the categories we focused on was created. 
 ![](https://github.com/Mikeblanchard/Covid_Project/blob/Viz_Test/Resources_mike/World_map.png)
